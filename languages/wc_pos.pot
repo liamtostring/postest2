@@ -1,0 +1,4673 @@
+# Copyright (C) 2023
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/woo-point-of-sale\n"
+"POT-Creation-Date: 2023-08-18 13:39:41+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: api/class-wkwcpos-data-store.php:94 api/class-wkwcpos-data-store.php:99
+msgid "Invalid data store."
+msgstr ""
+
+#: api/inc/class-wkwcpos-api-error-handler.php:38
+msgid "POS manager ID is Required"
+msgstr ""
+
+#: api/inc/class-wkwcpos-api-error-handler.php:41
+msgid "User do not exists"
+msgstr ""
+
+#: api/inc/class-wkwcpos-api-error-handler.php:44
+msgid "No manager exist by that email."
+msgstr ""
+
+#: api/inc/class-wkwcpos-api-error-handler.php:47
+msgid "Nonce did not verified."
+msgstr ""
+
+#: api/inc/class-wkwcpos-api-error-handler.php:50
+msgid "Customer not Found by requested ID."
+msgstr ""
+
+#: api/inc/class-wkwcpos-api-error-handler.php:53
+msgid "Not able to Delete customer. Please try again."
+msgstr ""
+
+#: api/inc/class-wkwcpos-api-error-handler.php:56
+msgid "customer_id is required."
+msgstr ""
+
+#: api/inc/class-wkwcpos-api-error-handler.php:59
+msgid "Not able to Create customer. Please try again."
+msgstr ""
+
+#: api/inc/class-wkwcpos-api-error-handler.php:62
+msgid "Customer Name & Email is Required"
+msgstr ""
+
+#: api/inc/class-wkwcpos-api-error-handler.php:65
+#: api/includes/customers/class-wkwcpos-api-create-customer.php:500
+msgid "Email already exists"
+msgstr ""
+
+#: api/inc/class-wkwcpos-api-error-handler.php:68
+#: templates/admin/reports/class-wc-pos-report-customer-list.php:133
+msgid "No customers found."
+msgstr ""
+
+#: api/inc/class-wkwcpos-api-error-handler.php:71
+#: api/includes/orders/class-wkwcpos-api-coupon-check.php:142
+msgid "Invalid Coupon"
+msgstr ""
+
+#: api/inc/class-wkwcpos-api-error-handler.php:74
+msgid "Parameter country_code not set. Pass a valid country code."
+msgstr ""
+
+#: api/inc/class-wkwcpos-api-error-handler.php:77
+msgid "All Fields are required."
+msgstr ""
+
+#: api/inc/class-wkwcpos-api-error-handler.php:80
+msgid "Missing params product_id, outlet_id, stock."
+msgstr ""
+
+#: api/inc/class-wkwcpos-api-error-handler.php:83
+msgid "POS Stock is unavailable"
+msgstr ""
+
+#: api/inc/class-wkwcpos-api-error-handler.php:86
+msgid "Please provide data"
+msgstr ""
+
+#: api/inc/class-wkwcpos-api-error-handler.php:89
+msgid "You have entered a wrong password."
+msgstr ""
+
+#: api/inc/class-wkwcpos-api-error-handler.php:92
+msgid "Please enter & confirm new password."
+msgstr ""
+
+#: api/inc/class-wkwcpos-api-error-handler.php:95
+msgid "Data to update is required."
+msgstr ""
+
+#: api/inc/class-wkwcpos-api-error-handler.php:98
+msgid "No mapped Outlet Found."
+msgstr ""
+
+#: api/inc/class-wkwcpos-api-error-handler.php:101
+msgid "Insufficient Data For Creating Order."
+msgstr ""
+
+#: api/inc/class-wkwcpos-api-error-handler.php:104
+msgid "Order is Empty"
+msgstr ""
+
+#: api/includes/class-wkwcpos-api-get-session-id.php:75
+#: api/includes/customers/class-wkwcpos-api-create-customer.php:108
+#: api/includes/customers/class-wkwcpos-api-delete-customer.php:79
+#: api/includes/customers/class-wkwcpos-api-get-customers.php:92
+#: api/includes/login/class-wkwcpos-api-login-user.php:105
+#: api/includes/misc/class-wkwcpos-api-create-drawer-perday.php:210
+#: api/includes/misc/class-wkwcpos-api-get-countries.php:79
+#: api/includes/misc/class-wkwcpos-api-get-currencies.php:77
+#: api/includes/misc/class-wkwcpos-api-get-invoice-template.php:104
+#: api/includes/misc/class-wkwcpos-api-get-sale-history.php:96
+#: api/includes/misc/class-wkwcpos-api-get-states.php:79
+#: api/includes/misc/class-wkwcpos-api-get-tax-details.php:98
+#: api/includes/misc/class-wkwcpos-api-update-manager.php:81
+#: api/includes/orders/class-wkwcpos-api-coupon-check.php:77
+#: api/includes/orders/class-wkwcpos-api-create-offline-order.php:89
+#: api/includes/orders/class-wkwcpos-api-create-order.php:123
+#: api/includes/orders/class-wkwcpos-api-get-orders.php:107
+#: api/includes/orders/class-wkwcpos-api-product-stock-check.php:75
+#: api/includes/payment/class-wkwcpos-api-get-payment-modes.php:80
+#: api/includes/products/class-wkwcpos-api-get-all-products-id.php:86
+#: api/includes/products/class-wkwcpos-api-get-all-products.php:103
+#: api/includes/products/class-wkwcpos-api-pin-product.php:82
+#: api/includes/products/class-wkwcpos-api-pin-product.php:83
+#: api/includes/products/class-wkwcpos-api-product-categories.php:93
+msgid "Please provide valid Auth Key."
+msgstr ""
+
+#: api/includes/customers/class-wkwcpos-api-create-customer.php:115
+msgid "Data not found"
+msgstr ""
+
+#: api/includes/customers/class-wkwcpos-api-create-customer.php:309
+msgid "Customer updated successfully.!"
+msgstr ""
+
+#: api/includes/customers/class-wkwcpos-api-create-customer.php:318
+#: api/includes/customers/class-wkwcpos-api-create-customer.php:509
+msgid "Fields are required"
+msgstr ""
+
+#: api/includes/customers/class-wkwcpos-api-create-customer.php:341
+msgid "Phone number already exists"
+msgstr ""
+
+#: api/includes/customers/class-wkwcpos-api-create-customer.php:491
+msgid "Customer created successfully.!"
+msgstr ""
+
+#: api/includes/login/class-wkwcpos-api-login-user.php:81
+msgid "Sorry, you must provide all parameters."
+msgstr ""
+
+#: api/includes/login/class-wkwcpos-api-login-user.php:121
+msgid "Logged in successfully."
+msgstr ""
+
+#: api/includes/login/class-wkwcpos-api-login-user.php:128
+msgid "Invalid credentials."
+msgstr ""
+
+#: api/includes/misc/class-wkwcpos-api-update-manager.php:130
+#: includes/wc-pos-defaults.php:307
+msgid "Old Password is wrong."
+msgstr ""
+
+#: api/includes/misc/class-wkwcpos-api-update-manager.php:173
+msgid "File not uploaded!"
+msgstr ""
+
+#: api/includes/misc/class-wkwcpos-api-update-manager.php:177
+msgid "File type not supported!"
+msgstr ""
+
+#: api/includes/orders/class-wkwcpos-api-coupon-check.php:131
+msgid "Sorry, Coupon Expired. Try another one!"
+msgstr ""
+
+#: api/includes/orders/class-wkwcpos-api-coupon-check.php:136
+msgid "Invalid Coupon Code"
+msgstr ""
+
+#: api/includes/orders/class-wkwcpos-api-coupon-check.php:139
+msgid "Sorry, Coupon already used at limit by this customer."
+msgstr ""
+
+#: api/includes/orders/class-wkwcpos-api-coupon-check.php:169
+#: api/includes/orders/class-wkwcpos-api-coupon-check.php:194
+#: api/includes/orders/class-wkwcpos-api-coupon-check.php:215
+msgid "Sorry, Coupon is not valid for your cart."
+msgstr ""
+
+#: api/includes/orders/class-wkwcpos-api-create-order.php:148
+#. translators: Cash is the cash entry
+msgid ""
+"%1$s (%2$s), \r\n"
+" Cash (%3$s)"
+msgstr ""
+
+#: api/includes/orders/class-wkwcpos-api-create-order.php:151
+#: api/includes/reports/class-wkwcpos-api-search-reports.php:115
+#: includes/wc-pos-defaults.php:377
+msgid "Cash"
+msgstr ""
+
+#: api/includes/orders/class-wkwcpos-api-create-order.php:207
+msgid "Please provide valid Order data."
+msgstr ""
+
+#: api/includes/orders/class-wkwcpos-api-create-order.php:719
+msgid "POS Discount"
+msgstr ""
+
+#: api/includes/payment/class-wkwcpos-api-get-payment-modes.php:100
+#: includes/wc-pos-defaults.php:336
+msgid "Cash Payment"
+msgstr ""
+
+#: api/includes/payment/class-wkwcpos-api-get-payment-modes.php:105
+#: includes/front/class-wc-pos-script-loader.php:285
+msgid "Card Payment"
+msgstr ""
+
+#: api/includes/products/class-wkwcpos-api-pin-product.php:98
+msgid "Product pinned successfully"
+msgstr ""
+
+#: api/includes/products/class-wkwcpos-api-pin-product.php:106
+msgid "Product unpinned successfully"
+msgstr ""
+
+#: api/includes/products/class-wkwcpos-api-pin-product.php:113
+msgid "Product id can not be empty."
+msgstr ""
+
+#: api/includes/reports/class-wkwcpos-api-reports.php:290
+msgid "cash"
+msgstr ""
+
+#: api/includes/reports/class-wkwcpos-api-search-reports.php:116
+msgid "Card"
+msgstr ""
+
+#: api/includes/setupwizard/class-wkwcpos-setup-wizard-api.php:158
+msgid "username is mandatory"
+msgstr ""
+
+#: api/includes/setupwizard/class-wkwcpos-setup-wizard-api.php:163
+msgid "Customer email is mandatory"
+msgstr ""
+
+#: api/includes/setupwizard/class-wkwcpos-setup-wizard-api.php:166
+#: includes/wc-pos-defaults.php:426
+msgid "Customer email is not valid"
+msgstr ""
+
+#: api/includes/setupwizard/class-wkwcpos-setup-wizard-api.php:171
+#: includes/filters/class-wc-pos-filter-callbacks.php:239
+msgid "Customer password is mandatory."
+msgstr ""
+
+#: api/includes/setupwizard/class-wkwcpos-setup-wizard-api.php:176
+#: includes/filters/class-wc-pos-filter-callbacks.php:245
+msgid "Customer Phone number is mandatory."
+msgstr ""
+
+#: api/includes/setupwizard/class-wkwcpos-setup-wizard-api.php:179
+msgid "Please enter a valid phone number"
+msgstr ""
+
+#: api/includes/setupwizard/class-wkwcpos-setup-wizard-api.php:198
+#: api/includes/setupwizard/class-wkwcpos-setup-wizard-api.php:212
+msgid "default"
+msgstr ""
+
+#: api/includes/setupwizard/class-wkwcpos-setup-wizard-api.php:199
+#: api/includes/setupwizard/class-wkwcpos-setup-wizard-api.php:213
+msgid "customer"
+msgstr ""
+
+#: api/includes/setupwizard/class-wkwcpos-setup-wizard-api.php:220
+msgid "POS setup wizard data inserted"
+msgstr ""
+
+#: api/includes/setupwizard/class-wkwcpos-setup-wizard-api.php:225
+msgid "User already exists from this email address"
+msgstr ""
+
+#: api/includes/setupwizard/class-wkwcpos-setup-wizard-api.php:254
+msgid "POS setup wizard data updated"
+msgstr ""
+
+#: functions.php:123
+msgid ""
+"<strong>Welcome to WooCommerce Point of Sale</strong> &#8211; You&lsquo;re "
+"almost ready to start selling :)"
+msgstr ""
+
+#: functions.php:127
+msgid "Run the Setup Wizard"
+msgstr ""
+
+#: functions.php:129
+msgid "Skip setup"
+msgstr ""
+
+#: functions.php:212
+msgid "Configuration"
+msgstr ""
+
+#: functions.php:235
+msgid "View WooCommerce Point Of Sale documentation"
+msgstr ""
+
+#: functions.php:235
+msgid "Docs"
+msgstr ""
+
+#: functions.php:236
+msgid "Visit Webkul community forums"
+msgstr ""
+
+#: functions.php:236
+msgid "Community support"
+msgstr ""
+
+#: functions.php:237
+msgid "Review the product"
+msgstr ""
+
+#: functions.php:237
+msgid "Review"
+msgstr ""
+
+#: helper/invoice/class-wkwcpos-invoice-helper.php:142
+#: helper/invoice/class-wkwcpos-invoice-helper.php:174
+msgid "Name already exists"
+msgstr ""
+
+#: helper/invoice/class-wkwcpos-invoice-helper.php:201
+msgid "Enter invoice name"
+msgstr ""
+
+#: helper/outlet/importer/class-wkwcpos-outlet-csv-importer.php:199
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:326
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:362
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:415
+msgid "Invalid file type. The importer supports CSV and TXT file formats."
+msgstr ""
+
+#: helper/outlet/importer/class-wkwcpos-outlet-csv-importer.php:522
+#. translators: %d: product ID
+msgid "ID %d"
+msgstr ""
+
+#: helper/outlet/importer/class-wkwcpos-outlet-csv-importer.php:576
+msgid "A outlet with this ID already exists."
+msgstr ""
+
+#: helper/outlet/importer/class-wkwcpos-outlet-csv-importer.php:588
+msgid "No matching outlet exists to update."
+msgstr ""
+
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:132
+msgid "Upload CSV file"
+msgstr ""
+
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:137
+msgid "Column mapping"
+msgstr ""
+
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:142
+#: templates/admin/outlet/class-wc-pos-outlet-list.php:428
+msgid "Import"
+msgstr ""
+
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:147
+msgid "Done!"
+msgstr ""
+
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:322
+msgid ""
+"File is empty. Please upload something more substantial. This error could "
+"also be caused by uploads being disabled in your php.ini or by "
+"post_max_size being defined as smaller than upload_max_filesize in php.ini."
+msgstr ""
+
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:369
+msgid "Please upload or provide the link to a valid CSV file."
+msgstr ""
+
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:389
+msgid ""
+"The file is empty or using a different encoding than UTF-8, please try "
+"again with a new file."
+msgstr ""
+
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:393
+msgid "Upload a new file"
+msgstr ""
+
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:421
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:504
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:591
+#: includes/front/class-wc-pos-script-loader.php:518
+#: templates/admin/class-wc-pos-products-list.php:631
+msgid "ID"
+msgstr ""
+
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:505
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:592
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:127
+#: templates/admin/outlet/class-wc-pos-outlet-list.php:149
+#: assets/dist/app/index.js:262
+msgid "Outlet Name"
+msgstr ""
+
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:506
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:593
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:141
+#: templates/admin/outlet/class-wc-pos-outlet-list.php:150
+#: assets/dist/app/index.js:263
+msgid "Outlet Address"
+msgstr ""
+
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:507
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:594
+#: templates/admin/outlet/class-wc-pos-outlet-list.php:153
+msgid "Outlet Status"
+msgstr ""
+
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:508
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:595
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:170
+#: assets/dist/app/index.js:264
+msgid "Outlet City"
+msgstr ""
+
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:509
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:596
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:183
+#: assets/dist/app/index.js:265
+msgid "Outlet State"
+msgstr ""
+
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:510
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:597
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:196
+#: assets/dist/app/index.js:267
+msgid "Outlet Postcode"
+msgstr ""
+
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:511
+#: helper/outlet/importer/class-wkwcpos-outlet-importer-controller.php:598
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:209
+#: assets/dist/app/index.js:266
+msgid "Outlet Country"
+msgstr ""
+
+#: helper/outlet/importer/mappings/generic.php:21
+#: includes/front/class-wc-pos-script-loader.php:515
+msgid "Title"
+msgstr ""
+
+#: helper/outlet/importer/mappings/generic.php:22
+msgid "Product Title"
+msgstr ""
+
+#: helper/outlet/importer/mappings/generic.php:23
+#: templates/admin/class-wc-pos-products-list.php:112
+#: templates/admin/outlet/class-wc-pos-outlet-product-list.php:165
+msgid "Price"
+msgstr ""
+
+#: helper/outlet/importer/mappings/generic.php:24
+msgid "Parent SKU"
+msgstr ""
+
+#: helper/outlet/importer/mappings/generic.php:25
+#: includes/wc-pos-defaults.php:485
+#: templates/admin/class-wc-pos-products-list.php:637
+#: assets/dist/app/index.js:181
+msgid "Quantity"
+msgstr ""
+
+#: helper/outlet/importer/mappings/generic.php:26
+msgid "Menu order"
+msgstr ""
+
+#: helper/outlet/importer/views/html-csv-import-done.php:20
+#. translators: %d: outlets count
+msgid "%s outlet imported"
+msgid_plural "%s outlets imported"
+msgstr[0] ""
+msgstr[1] ""
+
+#: helper/outlet/importer/views/html-csv-import-done.php:28
+#. translators: %d: outlets count
+msgid "%s outlet updated"
+msgid_plural "%s outlets updated"
+msgstr[0] ""
+msgstr[1] ""
+
+#: helper/outlet/importer/views/html-csv-import-done.php:36
+#. translators: %d: outlets count
+msgid "%s outlet was skipped"
+msgid_plural "%s outlets were skipped"
+msgstr[0] ""
+msgstr[1] ""
+
+#: helper/outlet/importer/views/html-csv-import-done.php:44
+#. translators: %d: outlets count
+msgid "Failed to import %s outlet"
+msgid_plural "Failed to import %s outlets"
+msgstr[0] ""
+msgstr[1] ""
+
+#: helper/outlet/importer/views/html-csv-import-done.php:50
+msgid "View import log"
+msgstr ""
+
+#: helper/outlet/importer/views/html-csv-import-done.php:54
+#. translators: %d: import results
+msgid "Import complete!"
+msgstr ""
+
+#: helper/outlet/importer/views/html-csv-import-done.php:61
+#: templates/admin/class-wc-pos-products-list.php:221
+#: templates/admin/class-wc-pos-products-list.php:292
+#: templates/admin/outlet/class-wc-pos-outlet-product-list.php:377
+#: templates/admin/reports/class-wc-report-stock.php:276
+#: templates/admin/reports/class-wc-report-stock.php:289
+msgid "Product"
+msgstr ""
+
+#: helper/outlet/importer/views/html-csv-import-done.php:62
+msgid "Reason for failure"
+msgstr ""
+
+#: helper/outlet/importer/views/html-csv-import-done.php:94
+msgid "View outlets"
+msgstr ""
+
+#: helper/outlet/importer/views/html-csv-import-header.php:13
+msgid "Import Outlets"
+msgstr ""
+
+#: helper/outlet/importer/views/html-csv-import-mapping.php:14
+msgid "Map CSV fields to outlets"
+msgstr ""
+
+#: helper/outlet/importer/views/html-csv-import-mapping.php:15
+msgid ""
+"Select fields from your CSV file to map against outlets fields, or to "
+"ignore during import."
+msgstr ""
+
+#: helper/outlet/importer/views/html-csv-import-mapping.php:21
+msgid "Column name"
+msgstr ""
+
+#: helper/outlet/importer/views/html-csv-import-mapping.php:22
+msgid "Map to field"
+msgstr ""
+
+#: helper/outlet/importer/views/html-csv-import-mapping.php:32
+msgid "Sample:"
+msgstr ""
+
+#: helper/outlet/importer/views/html-csv-import-mapping.php:38
+msgid "Do not import"
+msgstr ""
+
+#: helper/outlet/importer/views/html-csv-import-mapping.php:59
+msgid "Run the importer"
+msgstr ""
+
+#: helper/outlet/importer/views/html-csv-import-progress.php:15
+msgid "Importing"
+msgstr ""
+
+#: helper/outlet/importer/views/html-csv-import-progress.php:16
+msgid "Your outlets are now being imported..."
+msgstr ""
+
+#: helper/outlet/importer/views/html-outlet-csv-import-form.php:15
+msgid "Import outlets from a CSV file"
+msgstr ""
+
+#: helper/outlet/importer/views/html-outlet-csv-import-form.php:16
+msgid ""
+"This tool allows you to import (or merge) outlet data to your POS from a "
+"CSV file."
+msgstr ""
+
+#: helper/outlet/importer/views/html-outlet-csv-import-form.php:24
+msgid "Choose a CSV file from your computer:"
+msgstr ""
+
+#: helper/outlet/importer/views/html-outlet-csv-import-form.php:32
+msgid ""
+"Before you can upload your import file, you will need to fix the following "
+"error:"
+msgstr ""
+
+#: helper/outlet/importer/views/html-outlet-csv-import-form.php:46
+#. translators: %s: maximum upload size
+msgid "Maximum size: %s"
+msgstr ""
+
+#: helper/outlet/importer/views/html-outlet-csv-import-form.php:52
+msgid "Sample File"
+msgstr ""
+
+#: helper/outlet/importer/views/html-outlet-csv-import-form.php:59
+msgid "Update existing outlets"
+msgstr ""
+
+#: helper/outlet/importer/views/html-outlet-csv-import-form.php:63
+msgid ""
+"Existing outlets that match by ID will be updated. Outlets that do not "
+"exist will be skipped."
+msgstr ""
+
+#: helper/outlet/importer/views/html-outlet-csv-import-form.php:68
+msgid "Alternatively, enter the path to a CSV file on your server:"
+msgstr ""
+
+#: helper/outlet/importer/views/html-outlet-csv-import-form.php:77
+msgid "CSV Delimiter"
+msgstr ""
+
+#: helper/outlet/importer/views/html-outlet-csv-import-form.php:81
+msgid "Use previous column mapping preferences?"
+msgstr ""
+
+#: helper/outlet/importer/views/html-outlet-csv-import-form.php:103
+msgid "Hide advanced options"
+msgstr ""
+
+#: helper/outlet/importer/views/html-outlet-csv-import-form.php:103
+msgid "Show advanced options"
+msgstr ""
+
+#: helper/outlet/importer/views/html-outlet-csv-import-form.php:104
+msgid "Continue"
+msgstr ""
+
+#: inc/autoload.php:62
+#. translators: %s filepath
+msgid "The file attempting to be loaded at %s does not exist."
+msgstr ""
+
+#: includes/admin/class-wc-pos-function-handler.php:95
+msgid "Set Pos Default Customer"
+msgstr ""
+
+#: includes/admin/class-wc-pos-function-handler.php:399
+msgid "No Such Outlet found."
+msgstr ""
+
+#: includes/admin/class-wc-pos-function-handler.php:487
+msgid "Fields cannot be empty"
+msgstr ""
+
+#: includes/admin/class-wc-pos-function-handler.php:503
+#: templates/admin/outlet/class-wc-pos-outlet-product-list.php:378
+#: templates/admin/reports/class-wc-report-stock.php:280
+#: templates/admin/reports/class-wc-report-stock.php:293
+msgid "Master Stock"
+msgstr ""
+
+#: includes/admin/class-wc-pos-function-handler.php:508
+msgid "— No change —"
+msgstr ""
+
+#: includes/admin/class-wc-pos-function-handler.php:509
+msgid "Change to:"
+msgstr ""
+
+#: includes/admin/class-wc-pos-function-handler.php:519
+msgid "Enter master stock"
+msgstr ""
+
+#: includes/admin/class-wc-pos-function-handler.php:552
+msgid "POS Variation Master Stock"
+msgstr ""
+
+#: includes/admin/class-wc-pos-function-handler.php:554
+msgid "POS Enter the master stock for variation."
+msgstr ""
+
+#: includes/admin/class-wc-pos-function-handler.php:612
+msgid "POS Master Stock"
+msgstr ""
+
+#: includes/admin/class-wc-pos-function-handler.php:614
+msgid "POS Enter the master stock for product."
+msgstr ""
+
+#: includes/admin/class-wc-pos-function-handler.php:784
+msgid "Visit POS"
+msgstr ""
+
+#: includes/admin/class-wc-pos-function-handler.php:814
+msgid "Point of sale Setup wizard"
+msgstr ""
+
+#: includes/admin/class-wc-pos-function-handler.php:818
+msgid "Point Of Sale Onboarding"
+msgstr ""
+
+#: includes/admin/class-wc-pos-function-handler.php:820
+msgid "POS Setup Wizard"
+msgstr ""
+
+#: includes/admin/class-wc-pos-function-handler.php:821
+msgid ""
+"If you need to access the setup wizard again, please click on the button "
+"below."
+msgstr ""
+
+#: includes/admin/class-wc-pos-function-handler.php:822
+msgid "Setup wizard"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:63
+msgid "Welcome"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:64
+msgid "Webkul Point of Sale"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:65
+msgid "for WooCommerce"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:66
+msgid "You're ready to start selling"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:67
+msgid "Let's go!"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:68
+msgid "Default Customer"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:69
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:70
+#: templates/admin/settings/class-wc-pos-general-settings.php:87
+msgid "API Username"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:71
+#: templates/admin/settings/class-wc-pos-general-settings.php:103
+msgid "API Password"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:72
+#: templates/admin/settings/class-wc-pos-general-settings.php:224
+msgid "Select Inventory Type"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:73
+#: templates/admin/settings/class-wc-pos-general-settings.php:227
+msgid "Master Stock Inventory"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:74
+#: templates/admin/settings/class-wc-pos-general-settings.php:226
+msgid "Centralized Stock Inventory"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:75
+#: includes/admin/class-wkwcpos-setup-wizard.php:107
+msgid "Next"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:76
+msgid "Web App Settings"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:77
+#: templates/admin/invoice/class-wkwcpos-invoice-template-list.php:146
+#: templates/admin/invoice/class-wkwcpos-manage-invoice-template.php:151
+#: templates/admin/settings/class-wc-pos-general-settings.php:659
+msgid "Name"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:78
+#: templates/admin/settings/class-wc-pos-general-settings.php:676
+msgid "Short Name"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:79
+#: templates/admin/settings/class-wc-pos-general-settings.php:693
+msgid "Theme Color"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:80
+#: templates/admin/settings/class-wc-pos-general-settings.php:502
+#: templates/admin/settings/class-wc-pos-general-settings.php:710
+msgid "Background Color"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:81
+#: templates/admin/user/class-wc-pos-add-user.php:160
+msgid "User Name"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:82
+#: includes/wc-pos-defaults.php:441
+#: templates/admin/reports/class-wc-pos-report-customer-list.php:414
+#: templates/admin/settings/class-wc-pos-customer-settings.php:98
+#: templates/admin/user/class-wc-pos-add-user.php:231
+msgid "Email"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:83
+#: templates/admin/settings/class-wc-pos-customer-settings.php:109
+#: templates/admin/user/class-wc-pos-add-user.php:246
+#: templates/front/class-wc-pos-login.php:148
+msgid "Password"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:84
+#: templates/admin/settings/class-wc-pos-customer-settings.php:122
+#: templates/admin/user/class-wc-pos-add-user.php:217
+msgid "Telephone"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:85
+msgid "Ready to Go"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:86
+msgid "NEXT STEP"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:87
+msgid "Create some outlets"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:88
+msgid "You're ready to add outlet to your store."
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:89
+msgid "Create a outlet"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:90
+msgid "HAVE AN EXISTING POS?"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:91
+msgid "Import outlets"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:92
+msgid "Transfer existing outlets to your new store — just import a CSV file."
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:93
+msgid "YOU CAN ALSO:"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:94
+msgid "Visit Dashboard"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:95
+msgid "Review Settings"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:96
+msgid "Checkout our"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:97
+msgid "User Guide"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:98
+msgid "and"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:99
+msgid "Video"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:100
+msgid "to learn more about."
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:101
+msgid "Username can not be empty"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:102
+msgid "Please input a valid email address"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:103
+msgid "Input a valid telephone number"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:104
+msgid "Password field can not be empty"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:105
+msgid "Weak password, Do you want to continue?"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:106
+msgid "Please wait..."
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:108
+msgid "Begin Wizard"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:109
+msgid "Ready"
+msgstr ""
+
+#: includes/admin/class-wkwcpos-setup-wizard.php:152
+msgid "WooCommerce Point of Sale &rsaquo; Setup Wizard"
+msgstr ""
+
+#: includes/admin/menu/class-wc-pos-admin-menu-template.php:34
+msgid "Point of Sale"
+msgstr ""
+
+#: includes/admin/menu/class-wc-pos-admin-menu-template.php:36
+msgid "Users"
+msgstr ""
+
+#: includes/admin/menu/class-wc-pos-admin-menu-template.php:38
+msgid "Outlets"
+msgstr ""
+
+#: includes/admin/menu/class-wc-pos-admin-menu-template.php:40
+#: includes/front/class-wc-pos-script-loader.php:561
+msgid "Products"
+msgstr ""
+
+#: includes/admin/menu/class-wc-pos-admin-menu-template.php:42
+msgid "Orders "
+msgstr ""
+
+#: includes/admin/menu/class-wc-pos-admin-menu-template.php:42
+#: includes/front/class-wc-pos-script-loader.php:563
+#: includes/wc-pos-defaults.php:374 includes/wc-pos-defaults.php:504
+#: templates/admin/reports/class-wc-pos-report-customer-list.php:416
+msgid "Orders"
+msgstr ""
+
+#: includes/admin/menu/class-wc-pos-admin-menu-template.php:44
+#: assets/dist/app/index.js:289
+msgid "Reports"
+msgstr ""
+
+#: includes/admin/menu/class-wc-pos-admin-menu-template.php:46
+#: templates/admin/invoice/class-wkwcpos-invoice-template-list.php:55
+#: templates/admin/invoice/class-wkwcpos-invoice-template-list.php:329
+msgid "Invoice Templates"
+msgstr ""
+
+#: includes/admin/menu/class-wc-pos-admin-menu-template.php:50
+#: includes/wc-pos-defaults.php:380
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/menu/class-wc-pos-admin-menu-template.php:52
+msgid "Extensions"
+msgstr ""
+
+#: includes/admin/menu/class-wc-pos-admin-menu-template.php:54
+msgid "Support & Services"
+msgstr ""
+
+#: includes/admin/menu/class-wc-pos-admin-menu-template.php:118
+#: includes/front/class-wc-pos-script-loader.php:123
+msgid ""
+"If you like <strong>Point of sale</strong> from <strong><a "
+"href=\"https://webkul.com/\" target=\"_blank\" class=\"wc-rating-link\" "
+"data-rated=\"Thanks :)\">Webkul</a></strong> please leave us a <a "
+"href=\"https://codecanyon.net/item/wordpress-woocommerce-pos-system-point-"
+"of-sale/21254976\" target=\"_blank\" class=\"wc-rating-link\" "
+"data-rated=\"Thanks :)\">★★★★★</a> rating. A huge thanks in advance!"
+msgstr ""
+
+#: includes/admin/menu/class-wc-pos-admin-menu-template.php:175
+msgid "POS Products"
+msgstr ""
+
+#: includes/admin/menu/class-wc-pos-admin-menu-template.php:185
+#: includes/admin/menu/class-wc-pos-admin-menu-template.php:221
+#: includes/wc-pos-defaults.php:351 includes/wc-pos-defaults.php:498
+#: templates/admin/invoice/class-wkwcpos-invoice-template-list.php:337
+#: templates/admin/outlet/class-wc-pos-outlet-list.php:437
+#: templates/admin/outlet/class-wc-pos-outlet-product-list.php:575
+msgid "Search"
+msgstr ""
+
+#: includes/admin/menu/class-wc-pos-admin-menu-template.php:210
+msgid "POS Orders"
+msgstr ""
+
+#: includes/admin/menu/class-wc-pos-admin-menu-template.php:275
+msgid "Products per page"
+msgstr ""
+
+#: includes/admin/menu/class-wc-pos-admin-menu-template.php:285
+msgid "Orders per page"
+msgstr ""
+
+#: includes/admin/menu/class-wc-pos-admin-menu-template.php:296
+msgid "Outlet product Per Page"
+msgstr ""
+
+#: includes/admin/menu/class-wc-pos-admin-menu-template.php:306
+msgid "Users Per Page"
+msgstr ""
+
+#: includes/admin/outlet/class-wc-pos-manage-outlet.php:100
+msgid "Outlet name is empty"
+msgstr ""
+
+#: includes/admin/outlet/class-wc-pos-manage-outlet.php:106
+msgid "Outlet address is missing"
+msgstr ""
+
+#: includes/admin/outlet/class-wc-pos-manage-outlet.php:112
+msgid "Outlet status is mandatory"
+msgstr ""
+
+#: includes/admin/outlet/class-wc-pos-manage-outlet.php:168
+msgid "Outlet created successfully"
+msgstr ""
+
+#: includes/admin/outlet/class-wc-pos-manage-outlet.php:211
+msgid "Outlet updated successfully"
+msgstr ""
+
+#: includes/admin/outlet/class-wc-pos-manage-outlet.php:215
+#: includes/admin/user/class-wc-pos-manage-user.php:317
+msgid "Please fill up all the required fields "
+msgstr ""
+
+#: includes/admin/user/class-wc-pos-manage-user.php:107
+msgid "Pos manager email is empty "
+msgstr ""
+
+#: includes/admin/user/class-wc-pos-manage-user.php:113
+msgid "Pos manager email is mandatory "
+msgstr ""
+
+#: includes/admin/user/class-wc-pos-manage-user.php:119
+msgid "Pos manager email is not valid "
+msgstr ""
+
+#: includes/admin/user/class-wc-pos-manage-user.php:125
+msgid "Pos manager email is already in use."
+msgstr ""
+
+#: includes/admin/user/class-wc-pos-manage-user.php:133
+msgid "Pos manager telephone number is not valid."
+msgstr ""
+
+#: includes/admin/user/class-wc-pos-manage-user.php:138
+msgid "Pos manager telephone number is mandatory "
+msgstr ""
+
+#: includes/admin/user/class-wc-pos-manage-user.php:144
+msgid "Pos manager password is mandatory."
+msgstr ""
+
+#: includes/admin/user/class-wc-pos-manage-user.php:149
+msgid "Pos manager first name is mandatory."
+msgstr ""
+
+#: includes/admin/user/class-wc-pos-manage-user.php:155
+msgid "Pos manager last Name is mandatory."
+msgstr ""
+
+#: includes/admin/user/class-wc-pos-manage-user.php:161
+msgid "Pos manager status is mandatory "
+msgstr ""
+
+#: includes/admin/user/class-wc-pos-manage-user.php:167
+msgid "Username is already in use, Please try different USERNAME."
+msgstr ""
+
+#: includes/admin/user/class-wc-pos-manage-user.php:173
+msgid "Username does not allow Special Characters."
+msgstr ""
+
+#: includes/admin/user/class-wc-pos-manage-user.php:179
+msgid "Username length should be Greater then 5 and Less then 20."
+msgstr ""
+
+#: includes/admin/user/class-wc-pos-manage-user.php:251
+msgid ""
+"Welcome! you are now new pos user.\n"
+"\n"
+" Your username: %1$s \n"
+"\n"
+" Your Password: %2$s \n"
+"\n"
+" Login Link: %3$s"
+msgstr ""
+
+#: includes/admin/user/class-wc-pos-manage-user.php:253
+msgid "User Created Successfully"
+msgstr ""
+
+#: includes/admin/user/class-wc-pos-manage-user.php:255
+msgid "Pos manager created successfully"
+msgstr ""
+
+#: includes/admin/user/class-wc-pos-manage-user.php:313
+msgid "Profile Updated Successfully."
+msgstr ""
+
+#: includes/class-woo-coupon.php:41
+msgid "Invalid coupon code"
+msgstr ""
+
+#: includes/class-woo-coupon.php:64
+msgid "Invalid coupon ID"
+msgstr ""
+
+#: includes/filters/class-wc-pos-filter-callbacks.php:115
+msgid "Pos payment name is empty "
+msgstr ""
+
+#: includes/filters/class-wc-pos-filter-callbacks.php:119
+msgid "Pos payment slug is empty "
+msgstr ""
+
+#: includes/filters/class-wc-pos-filter-callbacks.php:123
+msgid "Pos payment description is empty "
+msgstr ""
+
+#: includes/filters/class-wc-pos-filter-callbacks.php:156
+msgid " Payment Gateway Updated Successfully "
+msgstr ""
+
+#: includes/filters/class-wc-pos-filter-callbacks.php:162
+#: includes/filters/class-wc-pos-filter-callbacks.php:186
+msgid " Pos payment already exists from this slug."
+msgstr ""
+
+#: includes/filters/class-wc-pos-filter-callbacks.php:179
+msgid " Payment Gateway Created Successfully"
+msgstr ""
+
+#: includes/filters/class-wc-pos-filter-callbacks.php:214
+msgid "Customer email is mandatory "
+msgstr ""
+
+#: includes/filters/class-wc-pos-filter-callbacks.php:221
+msgid "Customer email is not valid "
+msgstr ""
+
+#: includes/filters/class-wc-pos-filter-callbacks.php:227
+msgid "Customer first name is mandatory."
+msgstr ""
+
+#: includes/filters/class-wc-pos-filter-callbacks.php:233
+msgid "Customer last Name is mandatory."
+msgstr ""
+
+#: includes/filters/class-wc-pos-filter-callbacks.php:251
+msgid "Please enter a valid phone number(Only number allowed)."
+msgstr ""
+
+#: includes/filters/class-wc-pos-filter-callbacks.php:288
+msgid "Account created successfully"
+msgstr ""
+
+#: includes/filters/class-wc-pos-filter-callbacks.php:293
+msgid "Default Customer for POS Created Successfully!"
+msgstr ""
+
+#: includes/filters/class-wc-pos-filter-callbacks.php:305
+msgid "Ther must some required fields"
+msgstr ""
+
+#: includes/filters/class-wc-pos-filter-callbacks.php:340
+msgid "Default Customer for POS Updated Successfully!"
+msgstr ""
+
+#: includes/filters/class-wc-pos-filter-callbacks.php:407
+#: includes/filters/class-wc-pos-filter-callbacks.php:428
+#: templates/admin/outlet/class-wc-pos-outlet-list.php:255
+#: templates/admin/user/class-wc-pos-user-list.php:231
+msgid "Active"
+msgstr ""
+
+#: includes/filters/class-wc-pos-filter-callbacks.php:407
+#: includes/filters/class-wc-pos-filter-callbacks.php:428
+#: templates/admin/outlet/class-wc-pos-outlet-list.php:255
+#: templates/admin/user/class-wc-pos-user-list.php:225
+msgid "Deactive"
+msgstr ""
+
+#: includes/front/ajax-outlets/class-wc-pos-front-ajax-outlet-functions.php:99
+msgid "POS Stock is not available"
+msgstr ""
+
+#: includes/front/ajax-outlets/class-wc-pos-front-ajax-outlet-functions.php:117
+#: includes/front/ajax-outlets/class-wc-pos-front-ajax-outlet-functions.php:135
+#: includes/front/ajax-outlets/class-wc-pos-front-ajax-outlet-functions.php:152
+msgid "POS Stock for product updated"
+msgstr ""
+
+#: includes/front/ajax-outlets/class-wc-pos-front-ajax-outlet-functions.php:203
+msgid "Product Sync successfully"
+msgstr ""
+
+#: includes/front/ajax-outlets/class-wc-pos-front-ajax-outlet-functions.php:210
+msgid "Nonce not verified"
+msgstr ""
+
+#: includes/front/ajax-outlets/class-wc-pos-front-ajax-outlet-functions.php:353
+msgid "Insufficient privileges to import products."
+msgstr ""
+
+#: includes/front/class-wc-pos-front-function-handler.php:75
+msgid "Lost Password?"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:127
+msgid "Search by order id"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:128
+msgid "Search by User Name"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:129
+msgid "Search by Outlet Name"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:130
+msgid "Search by Product Name"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:131
+msgid "Search by Invoice Name"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:132
+msgid "Search by Payment Name"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:516
+#: templates/admin/class-wc-pos-products-list.php:630
+msgid "SKU"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:517
+#: includes/wc-pos-defaults.php:397
+msgid "Date"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:519
+#: includes/wc-pos-defaults.php:243 includes/wc-pos-defaults.php:530
+#: templates/admin/class-wc-pos-outlet-order-list.php:153
+msgid "Total"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:520
+msgid "Net Total"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:521
+#: includes/wc-pos-defaults.php:529
+msgid "Refund"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:522
+#: includes/wc-pos-defaults.php:241 includes/wc-pos-defaults.php:459
+#: assets/dist/app/index.js:82
+#: assets/dist/app/index.js:251
+#: assets/dist/app/index.js:649
+msgid "Tax"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:523
+msgid "Total Order"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:524
+msgid "Total Products"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:525
+#: templates/admin/class-wc-pos-outlet-order-list.php:151
+#: templates/admin/class-wc-pos-products-list.php:116
+#: templates/admin/settings/class-wc-pos-manage-payment.php:128
+#: templates/admin/settings/class-wc-pos-payment-list.php:120
+#: templates/admin/user/class-wc-pos-add-user.php:266
+#: templates/admin/user/class-wc-pos-user-list.php:122
+msgid "Status"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:526
+#: includes/wc-pos-defaults.php:400
+msgid "Total Sale"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:527
+msgid "Net Sale"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:528
+msgid "Total Number Of Orders"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:529
+msgid "Order By Status"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:530
+msgid "Net Order"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:531
+msgid "Total Refund"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:532
+msgid "Average Order"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:533
+msgid "Total Unit Sold"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:534
+msgid "Total Product Sale"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:535
+msgid "Total Products Sold"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:536
+msgid "Net Product Sale"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:537
+msgid "Total Number Of Products"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:538
+msgid "Total Product Tax"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:539
+msgid "Total Tax"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:540
+msgid "Total Coupon Amount"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:541
+msgid "Coupon Type"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:542
+msgid "Total Coupon Amount By Coupon Code"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:543
+msgid "Total Coupon Applied"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:544
+msgid "Total Tax Amount"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:545
+msgid "Total Shipping Tax Amount"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:546
+msgid "Total Shipping Tax"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:547
+msgid "Tax Rate"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:548
+msgid "Total Shipping Amount"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:549
+msgid "Line Chart"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:550
+msgid "Bar Chart"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:551
+msgid "Area Chart"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:552
+msgid "Charts"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:553
+msgid "No records found"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:554
+#: includes/wc-pos-defaults.php:372 includes/wc-pos-defaults.php:507
+msgid "Reset"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:555
+msgid "Filters"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:556
+#: templates/admin/class-wc-pos-products-list.php:603
+msgid "Filter"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:557
+msgid "Filter By"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:558
+msgid "Date Range"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:559
+msgid "Searching..."
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:560
+msgid "Overview"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:562
+msgid "Revenue"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:564
+msgid "Coupons"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:565
+msgid "Code"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:566
+msgid "Taxes"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:567
+#: includes/wc-pos-defaults.php:533
+msgid "Order Status"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:568
+msgid "Product Amount"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:569
+#: includes/wc-pos-defaults.php:223 includes/wc-pos-defaults.php:365
+#: templates/admin/class-wc-pos-products-list.php:106
+#: templates/admin/outlet/class-wc-pos-outlet-product-list.php:164
+msgid "Product Name"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:570
+msgid "Coupon Amount"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:571
+msgid "Coupon Code"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:572
+#: includes/wc-pos-defaults.php:385
+#: assets/dist/app/index.js:282
+msgid "Order Total"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:573
+msgid "Tax Amount"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:574
+msgid "Refund Amount"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:575
+msgid "Payment Method"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:576
+msgid "No records found for download."
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:577
+msgid "Download XLSX"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:578
+msgid "No records found."
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:579
+msgid "No options found"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:580
+msgid "Table View"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:581
+msgid "Grid View"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:582
+msgid "Remove filter"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:583
+msgid "Add Filters"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:584
+msgid "Enter at least 3 letters"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:585
+msgid "You can not add more filters."
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:586
+msgid "Select Date Range"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:587
+msgid "Include"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:588
+msgid "Exclude"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:589
+msgid "Equal"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:590
+msgid "Completed"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:591
+msgid "Pending"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:592
+msgid "Processing"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:593
+msgid "On Hold"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:594
+msgid "Cancelled"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:595
+msgid "Refunded"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:596
+msgid "Greater Than"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:597
+msgid "Less than"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:598
+msgid "Enter product amount"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:599
+msgid "Enter coupon amount"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:600
+msgid "Enter order amount"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:601
+msgid "Enter tax amount"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:602
+msgid "Enter refund amount"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:603
+#: includes/wc-pos-defaults.php:240
+#: assets/dist/app/index.js:204
+msgid "Discount"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:604
+#: assets/dist/app/index.js:322
+msgid "All"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:605
+msgid "Filter By Outlet"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:606
+msgid "Partial Refunded"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:607
+msgid "Failed"
+msgstr ""
+
+#: includes/front/class-wc-pos-script-loader.php:608
+msgid "Reset to default"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:220
+msgid "Something Went Wrong"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:221
+msgid "Email Send Successfully"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:222
+msgid "Refunded Amount"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:224
+msgid "Please select customer for this order"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:225
+msgid "Note "
+msgstr ""
+
+#: includes/wc-pos-defaults.php:226
+msgid "USD"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:227
+msgid "Warning!"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:228
+msgid "Success"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:229
+msgid "Cart has been added succesfully."
+msgstr ""
+
+#: includes/wc-pos-defaults.php:230
+msgid "Cart has been deleted succesfully."
+msgstr ""
+
+#: includes/wc-pos-defaults.php:231
+msgid "There are products in your current cart, kindly process them first."
+msgstr ""
+
+#: includes/wc-pos-defaults.php:232
+msgid "This field is validated"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:233
+msgid "Enter Order Note"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:234
+msgid "Order Note"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:235
+#: assets/dist/app/index.js:274
+msgid "Order ID"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:236
+#: assets/dist/app/index.js:275
+msgid "Order Date"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:237 includes/wc-pos-defaults.php:461
+#: templates/admin/class-wc-pos-outlet-order-list.php:147
+#: templates/admin/class-wc-pos-settings-template.php:43
+#: templates/admin/reports/class-wc-pos-report-tab-manager-template.php:55
+msgid "Customer"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:238 includes/wc-pos-defaults.php:331
+msgid "The cart is empty"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:239
+msgid "You can not put empty cart on hold!"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:242 includes/wc-pos-defaults.php:454
+msgid "Change"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:244
+msgid "Payable Amount"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:245
+msgid "Notice"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:246
+#: assets/dist/app/index.js:94
+msgid "Coupon"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:247
+#: templates/admin/reports/class-wc-pos-report-customer-list.php:181
+#: templates/admin/reports/class-wc-pos-report-stock-setting.php:113
+msgid "Apply"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:248
+#: templates/admin/invoice/class-wkwcpos-invoice-template-list.php:264
+#: templates/admin/invoice/class-wkwcpos-invoice-template-list.php:279
+#: templates/admin/outlet/class-wc-pos-outlet-list.php:330
+#: templates/admin/settings/class-wc-pos-payment-list.php:205
+#: templates/admin/settings/class-wc-pos-payment-list.php:218
+#: templates/admin/user/class-wc-pos-user-list.php:291
+msgid "Delete"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:249
+#: templates/admin/class-wc-pos-outlet-order-list.php:296
+#: templates/admin/invoice/class-wkwcpos-invoice-template-list.php:262
+#: templates/admin/outlet/class-wc-pos-outlet-list.php:312
+#: templates/admin/outlet/class-wc-pos-outlet-product-list.php:493
+#: templates/admin/reports/class-wc-pos-report-customer-list.php:275
+#: templates/admin/reports/class-wc-report-stock.php:237
+#: templates/admin/settings/class-wc-pos-payment-list.php:203
+#: templates/admin/user/class-wc-pos-user-list.php:289
+msgid "Edit"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:250
+msgid "Add Customer"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:251
+msgid "Add to cart"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:252
+msgid "Proceed"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:253
+msgid ""
+"This process will generate an order depending upon the status Online or "
+"Offline. Do you still wanna do it.?"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:254
+msgid "No note"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:255
+msgid "Error"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:256
+msgid "Cancel"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:257
+msgid "Please do not keep coupon code field empty."
+msgstr ""
+
+#: includes/wc-pos-defaults.php:258
+msgid "Please do not keep any field empty."
+msgstr ""
+
+#: includes/wc-pos-defaults.php:259
+msgid "Hold Order"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:260 includes/wc-pos-defaults.php:513
+msgid "Hold Cart"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:261
+msgid "Cart"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:262
+msgid "Select a category from the list below"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:263
+msgid "Listing Category"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:264
+msgid "Currency Not available"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:265
+msgid "POS Currency"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:266
+msgid "Above form fields are not correct"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:267
+msgid "Updating account"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:268
+msgid "Account has been updated successfully"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:269
+msgid "Customer has been updated successfully"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:270
+msgid "Customer has been added successfully"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:271
+msgid "Setting has been updated successfully"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:272
+msgid "Confirmation"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:273
+msgid "Creating New Customer"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:274
+msgid "Updating Existing Customer"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:275
+msgid "Please enter opening amount for cash drawer."
+msgstr ""
+
+#: includes/wc-pos-defaults.php:276
+msgid "Drawer Closed Successfully."
+msgstr ""
+
+#: includes/wc-pos-defaults.php:277
+msgid "Closing drawer..."
+msgstr ""
+
+#: includes/wc-pos-defaults.php:278
+msgid "Please enter valid opening cash amount."
+msgstr ""
+
+#: includes/wc-pos-defaults.php:279
+msgid "Delete Customer"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:280
+msgid "Deleting Customer"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:281
+#: templates/admin/settings/class-wc-pos-customer-settings.php:221
+msgid "Save Customer"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:282
+msgid "Search order by id, customer"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:283
+msgid "Search offline order by id"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:284
+msgid "Print Invoice"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:285
+msgid "Sale Summary"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:286
+msgid "Sub Total"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:287
+msgid "Unit(s)"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:288
+#: assets/dist/app/index.js:334
+msgid "Logout"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:289
+msgid "Are you sure you want to logout?"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:290
+msgid "Processing Order"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:291
+msgid "Warning: Coupon is either invalid, expired or reached its usage limit!"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:292
+msgid "Searching Products"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:293
+msgid "Could not load products"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:294
+msgid "Loading Populars"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:295
+msgid "Could not load popular products"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:296
+msgid "Loading Orders"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:297
+msgid "Could not load orders"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:298
+msgid "Loading Customers"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:299
+msgid "Could not load customers"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:300
+msgid "Cannot add, edit, delete customer in offline mode"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:301
+msgid "Cannot update account in offline mode"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:302 includes/wc-pos-defaults.php:468
+msgid "Loading Categories"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:303
+msgid "Could not load categories"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:304
+msgid "Loading..."
+msgstr ""
+
+#: includes/wc-pos-defaults.php:305
+msgid "Upload File"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:306
+msgid "Fill the product's options"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:308
+msgid "No products found"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:309
+msgid "You have successfully entered online mode"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:310
+msgid "You can not enter online mode as you are disconnected"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:311
+msgid "You are About to enter offline mode"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:312
+msgid "No products found in this category"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:313
+msgid "No customer found"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:314
+msgid "No orders found "
+msgstr ""
+
+#: includes/wc-pos-defaults.php:315
+msgid "You have successfully selected a customer for checkout"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:316
+msgid "You can not add a new customer as you are offline right now"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:317
+msgid "You have successfully selected guest for checkout"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:318
+msgid "Add atleast one product to checkout"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:319
+msgid "Balance due:"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:320
+msgid "The order has been successfully placed"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:321
+msgid "Sync. all offline orders"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:322
+msgid "Syncing Offline Order(s)"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:323
+msgid "All orders are synced"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:324
+msgid "Sync Offline Orders"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:325
+msgid "No Orders Available"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:326
+msgid "order note empty"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:327
+msgid "You can not synchronize orders as you are offline right now"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:328
+msgid "You have selected another cart for checkout"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:329
+msgid "The current cart has been successfully deleted"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:330
+msgid "The cart has been successfully deleted"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:332
+msgid "The current cart is put on hold and a new cart successfully added"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:333
+msgid "Fill all the required options to continue adding this product to the cart"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:334
+msgid "%product-name% could not be added to the cart"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:335
+msgid "The quantity for %product-name% is not available"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:337
+msgid "All Products"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:338
+msgid "Invalid Percentage value, must be less than or equal to 100"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:339
+msgid "Discount cannot be applied due to invalid total amount"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:340
+msgid "Enter Coupon Code"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:341 includes/wc-pos-defaults.php:512
+msgid "Apply Coupon"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:342
+msgid "First add product in cart"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:343
+msgid "Applying Coupon"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:344
+msgid "Coupon applied successfully"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:345
+msgid "Enter Barcode"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:346
+msgid "Offline"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:347
+msgid "Online"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:348
+msgid "Coupon cannot be applied on offline mode"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:349
+msgid "Coupon removed successfully"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:350
+msgid "Error occurred while removing Coupon. Please try again"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:352
+msgid "Select Variation from the list below"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:353
+msgid "This product is having low stock."
+msgstr ""
+
+#: includes/wc-pos-defaults.php:354
+msgid "This product is on discount."
+msgstr ""
+
+#: includes/wc-pos-defaults.php:355
+msgid "Are you sure you want to delete customer?"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:356
+msgid "Want to Change the Customer?"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:357
+msgid "Change Customer"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:358
+msgid "Okay"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:359
+msgid "Entered amount cannot be paid"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:360
+msgid "No orders available"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:361
+msgid "Calculating Shipping Cost"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:362
+msgid "Shipping"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:363
+msgid "Tax Total"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:364 includes/wc-pos-defaults.php:543
+msgid "Add New Product"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:366
+msgid "Product Price"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:367
+msgid "Product Quantity"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:368
+msgid "Please enter a valid Quantity"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:369
+msgid "Please enter a valid Price"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:370 includes/wc-pos-defaults.php:532
+msgid "Add"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:371
+msgid "Product name length must be more 3"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:373
+msgid "Reset Cart"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:375 includes/wc-pos-defaults.php:501
+msgid "Home"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:376 includes/wc-pos-defaults.php:503
+msgid "Cashier"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:378 includes/wc-pos-defaults.php:398
+#: includes/wc-pos-defaults.php:456
+#: assets/dist/app/index.js:69
+#: assets/dist/app/index.js:243
+#: assets/dist/app/index.js:237
+msgid "Other Payments"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:379 includes/wc-pos-defaults.php:502
+#: assets/dist/app/index.js:182
+msgid "Customers"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:381
+msgid "Opening Drawer Amount"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:382
+msgid "Today Cash Sale"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:383
+msgid "Today Other Payment Sale"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:384
+msgid "Time"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:386
+msgid "Payment Mode"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:387
+msgid "Drawer Account Summary"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:388
+msgid "Opening Amount"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:389
+msgid "Today Sale"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:390
+msgid "Expected Amount in Drawer"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:391
+msgid "Counted Drawer Amount"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:392
+msgid "Remarks"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:393
+msgid "Closing Drawer Detail"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:394
+msgid "Difference"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:395
+msgid "Close Drawer"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:396
+msgid "Cash balance"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:399
+msgid "Cash Sale"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:401
+msgid "Drawer Note"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:402
+msgid "Close Counter"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:403
+msgid "Today Cash"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:404
+msgid "Sale History"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:405
+msgid "Hold Sale"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:406
+msgid "Offline Sale"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:407
+msgid "Customer Name"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:408
+msgid "Customer Phone"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:409
+msgid "Customer Email"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:410
+msgid "Address"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:411
+msgid "First name"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:412
+msgid "Last name"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:413
+msgid "Billing Email"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:414
+msgid "Address 1"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:415
+msgid "Address 2"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:416
+#: templates/admin/settings/class-wc-pos-customer-settings.php:198
+msgid "Country"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:417
+msgid "State"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:418
+#: templates/admin/settings/class-wc-pos-customer-settings.php:175
+msgid "City"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:419
+msgid "Pincode"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:420
+msgid "Phone"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:421
+msgid "Customer name cannot be empty"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:422
+msgid "Customer phone cannot be empty"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:423
+msgid "Customer email cannot be empty"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:424
+msgid "Only Numbers allowed"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:425
+msgid "Not a valid phone number"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:427
+msgid "Customer pincode is not valid"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:428
+msgid "Customer city is not valid"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:429
+msgid "Customer billing email is not valid"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:430
+msgid "First name is not valid"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:431
+msgid "Last name is not valid"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:432
+msgid "Pos manager email cannot be empty"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:433
+msgid "Pos manager email is not valid"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:434
+msgid "Old password cannot be empty"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:435
+msgid "New password cannot be empty"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:436
+msgid "Confirm password cannot be empty"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:437
+msgid "Both passwords are not same"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:438
+msgid "Account Settings"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:439
+msgid "Other Settings"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:440
+msgid "KeyBoard Shortcuts"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:442
+#: assets/dist/app/index.js:284
+msgid "Previous Password"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:443
+#: assets/dist/app/index.js:289
+msgid "New Password"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:444
+#: assets/dist/app/index.js:294
+msgid "Confirm Password"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:445
+msgid "Update Account"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:446
+msgid "Select Currency"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:447
+msgid "Select Invoice Printer"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:448
+msgid "Select Language"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:449
+msgid "English"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:450
+msgid "Save Settings"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:451
+msgid "Only letters"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:452
+msgid "Tendered"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:453
+msgid "Split Payment"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:455
+msgid "C"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:457
+msgid "Subtotal"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:458
+msgid "Order Summary"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:460
+#: templates/admin/class-wc-pos-outlet-order-list.php:143
+#: templates/admin/reports/class-wc-pos-report-tab-manager-template.php:54
+#: assets/dist/app/index.js:910
+msgid "Order"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:462
+msgid "Confirm Payment"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:463
+msgid "Generate Invoice"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:464
+msgid "Add order note here"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:465
+msgid "Sync Orders"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:466
+msgid " No offline order to Sync"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:467
+msgid "Reloading data"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:469
+msgid "Loading Countries"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:470
+msgid "Loading States"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:471
+msgid "Loading Currencies"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:472
+msgid "Loading sales"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:473
+msgid "Updating Manager details"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:474
+msgid "Loading Tax"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:475
+msgid "Grand Total"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:476
+msgid " out of stock now, please remove them from cart."
+msgstr ""
+
+#: includes/wc-pos-defaults.php:477
+msgid " is"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:478
+msgid " are"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:479
+msgid "Payment Detail"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:480
+msgid "Pay By Cash"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:481
+msgid "Pay By Other"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:482
+msgid "Apply discount to sale"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:483
+msgid "Pay"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:484
+msgid "Customer has been deleted successfully"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:486
+msgid "Unit Price"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:487
+msgid "Total Price"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:488
+msgid "Do you want to send this order via mail to: "
+msgstr ""
+
+#: includes/wc-pos-defaults.php:489
+msgid "Customer name : "
+msgstr ""
+
+#: includes/wc-pos-defaults.php:490
+msgid " Email : "
+msgstr ""
+
+#: includes/wc-pos-defaults.php:491
+msgid "Send order email"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:492
+msgid "Total Change"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:494
+msgid "Search customer by name, email"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:495 includes/wc-pos-defaults.php:536
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:496
+msgid "Note : Keyboard Shortcut is currently disabled from Admin"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:497
+msgid "Header Section"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:499
+msgid "Full Screen"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:500
+msgid "Menu Section"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:505
+#: templates/admin/outlet/class-wc-pos-outlet-list.php:154
+msgid "Report"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:506
+msgid "Setting"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:508
+msgid "Cart Section"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:509
+msgid "Custom Product"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:510
+msgid "Remove Cart"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:511
+msgid "Barcode Scan"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:514
+msgid "PAY"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:515
+msgid "Hold"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:516
+msgid "Offline Order"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:517
+msgid "Pay Section"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:518
+msgid "For Selecting First value of Payment"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:519
+msgid "For Changing Payment Method"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:520
+msgid "Generate Reciept"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:521
+msgid "Remove Payment"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:522
+msgid "Customer Section"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:523
+msgid "Customer Search"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:524
+msgid "Order Section (Online / Offline)"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:525
+msgid "Order Search"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:526
+msgid "Order Print"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:527
+msgid "Offline Order Sync"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:528
+msgid "Paid"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:531
+msgid "Close Reciept"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:534
+msgid "Expand Screen"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:535
+msgid "Collapse Screen"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:537
+msgid "Hold Carts"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:538
+msgid "You are offline"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:539
+msgid "You are online"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:540
+msgid "Offline sale/orders"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:541
+#: templates/admin/settings/class-wc-pos-appearance.php:65
+msgid "Dark Mode"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:542
+#: templates/admin/settings/class-wc-pos-appearance.php:58
+msgid "Light Mode"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:544
+msgid "Clear Cart"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:545
+msgid "Scan Barcode"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:546
+msgid "Remove Product"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:547
+msgid "Select the customer first."
+msgstr ""
+
+#: includes/wc-pos-defaults.php:548
+msgid "Pin"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:549
+msgid "Unpin"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:550
+msgid "You can not pin/unpin product in offline mode."
+msgstr ""
+
+#: includes/wc-pos-defaults.php:551
+msgid "Enter a valid price."
+msgstr ""
+
+#: includes/wc-pos-defaults.php:552
+msgid "Cannot process orders with centralized inventory at offline mode."
+msgstr ""
+
+#: includes/wc-pos-defaults.php:553
+msgid "There are offline orders present, kindly sync them first!"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:554
+msgid "Please enter tendered amount same as total amount."
+msgstr ""
+
+#: includes/wc-pos-defaults.php:555
+msgid "Please add products to the cart first!"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:556
+msgid "No stock available."
+msgstr ""
+
+#: includes/wc-pos-defaults.php:557
+msgid "Sorry! Product not found."
+msgstr ""
+
+#: includes/wc-pos-defaults.php:558
+msgid " for"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:559
+msgid "This coupon is not applicable for product in cart."
+msgstr ""
+
+#: includes/wc-pos-defaults.php:560
+msgid "This coupon is already applied."
+msgstr ""
+
+#: includes/wc-pos-defaults.php:561
+msgid "All Products Imported Succesfully."
+msgstr ""
+
+#: includes/wc-pos-defaults.php:562
+msgid "Discount amount should be less than or equal to"
+msgstr ""
+
+#: includes/wc-pos-defaults.php:563
+msgid "Enter valid discount amount."
+msgstr ""
+
+#: includes/wc-pos-defaults.php:564
+#: templates/admin/reports/class-wc-report-stock.php:189
+#: templates/admin/reports/class-wc-report-stock.php:195
+#: templates/admin/reports/class-wc-report-stock.php:203
+#: templates/admin/reports/class-wc-report-stock.php:210
+msgid "Out of stock"
+msgstr ""
+
+#: templates/admin/class-wc-pos-outlet-order-list.php:42
+#: templates/admin/class-wc-pos-outlet-order-list.php:43
+msgid "POS Order List"
+msgstr ""
+
+#: templates/admin/class-wc-pos-outlet-order-list.php:145
+msgid "POS Outlet"
+msgstr ""
+
+#: templates/admin/class-wc-pos-outlet-order-list.php:149
+#: templates/admin/class-wc-pos-products-list.php:114
+msgid "Total Quantity"
+msgstr ""
+
+#: templates/admin/class-wc-pos-outlet-order-list.php:155
+msgid "Date Added"
+msgstr ""
+
+#: templates/admin/class-wc-pos-outlet-order-list.php:270
+#: templates/admin/class-wc-pos-outlet-order-list.php:286
+#: templates/admin/class-wc-pos-products-list.php:584
+#: templates/admin/reports/class-wc-pos-report-customer-list.php:166
+#: templates/admin/reports/class-wc-pos-report-stock-setting.php:100
+#: templates/admin/user/class-wc-pos-add-user.php:175
+msgid "Select Outlet"
+msgstr ""
+
+#: templates/admin/class-wc-pos-products-list.php:37
+#: templates/admin/class-wc-pos-products-list.php:38
+msgid "POS Product List"
+msgstr ""
+
+#: templates/admin/class-wc-pos-products-list.php:108
+#: templates/admin/outlet/class-wc-pos-outlet-product-list.php:163
+#: templates/admin/user/class-wc-pos-user-list.php:117
+#: assets/dist/app/index.js:297
+msgid "Image"
+msgstr ""
+
+#: templates/admin/class-wc-pos-products-list.php:110
+#: templates/admin/user/class-wc-pos-user-list.php:120
+msgid "Outlet"
+msgstr ""
+
+#: templates/admin/class-wc-pos-products-list.php:118
+msgid "Barcode"
+msgstr ""
+
+#: templates/admin/class-wc-pos-products-list.php:122
+#: templates/admin/class-wc-pos-products-list.php:293
+#: templates/admin/outlet/class-wc-pos-outlet-product-list.php:380
+msgid "Assigned POS Quantity"
+msgstr ""
+
+#: templates/admin/class-wc-pos-products-list.php:222
+msgid "Barcode(By ID & SKU)"
+msgstr ""
+
+#: templates/admin/class-wc-pos-products-list.php:223
+msgid "Action"
+msgstr ""
+
+#: templates/admin/class-wc-pos-products-list.php:241
+#: templates/admin/class-wc-pos-products-list.php:277
+msgid "By ID"
+msgstr ""
+
+#: templates/admin/class-wc-pos-products-list.php:243
+msgid "No Barcode Image By ID"
+msgstr ""
+
+#: templates/admin/class-wc-pos-products-list.php:248
+#: templates/admin/class-wc-pos-products-list.php:280
+msgid "By SKU"
+msgstr ""
+
+#: templates/admin/class-wc-pos-products-list.php:250
+msgid "No Barcode Image By SKU"
+msgstr ""
+
+#: templates/admin/class-wc-pos-products-list.php:273
+#: templates/admin/class-wc-pos-products-list.php:311
+msgid "Variations"
+msgstr ""
+
+#: templates/admin/class-wc-pos-products-list.php:273
+msgid "barcode"
+msgstr ""
+
+#: templates/admin/class-wc-pos-products-list.php:311
+msgid "Variation stock"
+msgstr ""
+
+#: templates/admin/class-wc-pos-products-list.php:353
+#: templates/admin/class-wc-pos-products-list.php:551
+msgid "Generate Barcode by ID"
+msgstr ""
+
+#: templates/admin/class-wc-pos-products-list.php:354
+#: templates/admin/class-wc-pos-products-list.php:552
+msgid "Generate Barcode by SKU"
+msgstr ""
+
+#: templates/admin/class-wc-pos-products-list.php:408
+#: templates/admin/class-wc-pos-products-list.php:424
+#: templates/admin/class-wc-pos-products-list.php:427
+#: templates/admin/class-wc-pos-products-list.php:436
+#: templates/admin/class-wc-pos-products-list.php:439
+msgid "Barcode generated by ID successfully."
+msgstr ""
+
+#: templates/admin/class-wc-pos-products-list.php:488
+#: templates/admin/class-wc-pos-products-list.php:504
+#: templates/admin/class-wc-pos-products-list.php:507
+#: templates/admin/class-wc-pos-products-list.php:519
+#: templates/admin/class-wc-pos-products-list.php:522
+msgid "Barcode generated by SKU successfully."
+msgstr ""
+
+#: templates/admin/class-wc-pos-products-list.php:532
+msgid "Commision id is not valid."
+msgstr ""
+
+#: templates/admin/class-wc-pos-products-list.php:550
+msgid "Print Barcode"
+msgstr ""
+
+#: templates/admin/class-wc-pos-products-list.php:619
+msgid "Enter the number of barcode slips"
+msgstr ""
+
+#: templates/admin/class-wc-pos-products-list.php:628
+msgid "Barcode By"
+msgstr ""
+
+#: templates/admin/class-wc-pos-products-list.php:645
+msgid "Print"
+msgstr ""
+
+#: templates/admin/class-wc-pos-settings-template.php:42
+#: templates/admin/invoice/class-wkwcpos-manage-invoice-template.php:52
+#: templates/admin/outlet/class-wc-pos-outlet-tab-manager.php:42
+#: templates/admin/outlet/class-wc-pos-outlet-tab-manager.php:55
+msgid "General"
+msgstr ""
+
+#: templates/admin/class-wc-pos-settings-template.php:44
+msgid "Payment"
+msgstr ""
+
+#: templates/admin/class-wc-pos-settings-template.php:45
+msgid "Printer"
+msgstr ""
+
+#: templates/admin/class-wc-pos-settings-template.php:46
+msgid "Appearance"
+msgstr ""
+
+#: templates/admin/class-wc-pos-settings-template.php:47
+msgid "Endpoints"
+msgstr ""
+
+#: templates/admin/class-wc-pos-settings-template.php:54
+msgid "POS Mass Assign"
+msgstr ""
+
+#: templates/admin/invoice/class-wkwcpos-invoice-template-list.php:54
+msgid "Invoice Template"
+msgstr ""
+
+#: templates/admin/invoice/class-wkwcpos-invoice-template-list.php:148
+msgid "Created At"
+msgstr ""
+
+#: templates/admin/invoice/class-wkwcpos-invoice-template-list.php:150
+msgid "Modified At"
+msgstr ""
+
+#: templates/admin/invoice/class-wkwcpos-invoice-template-list.php:306
+msgid "Invoice deleted successfully"
+msgstr ""
+
+#: templates/admin/invoice/class-wkwcpos-invoice-template-list.php:311
+msgid "Not a Valid Invoice."
+msgstr ""
+
+#: templates/admin/invoice/class-wkwcpos-invoice-template-list.php:329
+#: templates/admin/outlet/class-wc-pos-outlet-list.php:427
+#: templates/admin/settings/class-wc-pos-payment-list.php:290
+msgid "Add New"
+msgstr ""
+
+#: templates/admin/invoice/class-wkwcpos-manage-invoice-template.php:56
+msgid "Editor"
+msgstr ""
+
+#: templates/admin/invoice/class-wkwcpos-manage-invoice-template.php:95
+msgid "Invoice has been created successfully."
+msgstr ""
+
+#: templates/admin/invoice/class-wkwcpos-manage-invoice-template.php:101
+msgid "Invoice has been updated successfully."
+msgstr ""
+
+#: templates/admin/invoice/class-wkwcpos-manage-invoice-template.php:137
+msgid "Add Invoice Template"
+msgstr ""
+
+#: templates/admin/invoice/class-wkwcpos-manage-invoice-template.php:139
+msgid "Edit Invoice Template"
+msgstr ""
+
+#: templates/admin/invoice/class-wkwcpos-manage-invoice-template.php:153
+msgid "Enter Invoice Name."
+msgstr ""
+
+#: templates/admin/invoice/class-wkwcpos-manage-invoice-template.php:164
+#: templates/admin/settings/class-wc-pos-appearance.php:73
+#: templates/admin/settings/class-wc-pos-endpoint-settings.php:84
+#: templates/admin/settings/class-wc-pos-printer-settings.php:75
+#: assets/dist/app/index.js:109
+msgid "Save"
+msgstr ""
+
+#: templates/admin/invoice/class-wkwcpos-manage-invoice-template.php:187
+msgid "Invoice has been saved successfully."
+msgstr ""
+
+#: templates/admin/invoice/class-wkwcpos-manage-invoice-template.php:493
+msgid "No outlet assigned to this POS user."
+msgstr ""
+
+#: templates/admin/invoice/class-wkwcpos-manage-invoice-template.php:501
+msgid "this POS Order does not belongs to the select POS user."
+msgstr ""
+
+#: templates/admin/invoice/class-wkwcpos-manage-invoice-template.php:509
+msgid "This is not a valid POS user."
+msgstr ""
+
+#: templates/admin/invoice/class-wkwcpos-manage-invoice-template.php:517
+msgid "Data provided in the fields are either empty or invalid."
+msgstr ""
+
+#: templates/admin/invoice/class-wkwcpos-manage-invoice-template.php:554
+msgid "Enter POS User ID"
+msgstr ""
+
+#: templates/admin/invoice/class-wkwcpos-manage-invoice-template.php:555
+msgid "Enter User's Outlet's Order ID"
+msgstr ""
+
+#: templates/admin/invoice/class-wkwcpos-manage-invoice-template.php:556
+msgid "Submit"
+msgstr ""
+
+#: templates/admin/invoice/class-wkwcpos-manage-invoice-template.php:573
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:38
+#: templates/admin/settings/class-wc-pos-customer-settings.php:241
+#: templates/admin/settings/class-wc-pos-manage-payment.php:178
+#: templates/admin/user/class-wc-pos-add-user.php:364
+msgid "Sorry, your nonce did not verify."
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:68
+msgid "Select invoice template"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:98
+msgid "Add outlet for POS user"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:113
+msgid "Add Outlet"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:115
+msgid "Edit Outlet"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:129
+msgid "Enter POS Outlet Name."
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:143
+msgid "POS Outlet Address."
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:154
+msgid "Select Status"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:158
+msgid "Select Status for the pos outlet."
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:172
+msgid "Enter POS Outlet City."
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:185
+msgid "Enter POS Outlet State."
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:198
+msgid "Enter POS Postcode."
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:212
+#: templates/admin/settings/class-wc-pos-customer-settings.php:201
+msgid "Display country list."
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:223
+msgid "Additional Payment Option"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:228
+msgid "Select Additional Payment Option here for outlets."
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:239
+msgid "Select Invoice Template"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:243
+msgid "Select invoice template for the current outlet."
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:258
+msgid "Update Outlet"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-add-outlet.php:265
+msgid "Save Outlet"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-outlet-list.php:56
+#: templates/admin/outlet/class-wc-pos-outlet-list.php:57
+msgid "POS List Outlets"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-outlet-list.php:151
+msgid "Payment Methods"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-outlet-list.php:152
+msgid "Outlet Template"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-outlet-list.php:178
+msgid "Outlet Report "
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-outlet-list.php:273
+#: templates/admin/outlet/class-wc-pos-outlet-list.php:275
+msgid "Not Assigned"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-outlet-list.php:313
+msgid "Manage Outlet"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-outlet-list.php:328
+#: templates/admin/user/class-wc-pos-user-list.php:304
+msgid "Activate"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-outlet-list.php:329
+#: templates/admin/user/class-wc-pos-user-list.php:305
+msgid "Deactivate"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-outlet-list.php:405
+msgid " outlet(s) deleted successfully."
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-outlet-list.php:409
+msgid " outlet(s) updated successfully."
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-outlet-list.php:426
+msgid "Outlet List"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-outlet-product-list.php:71
+#: templates/admin/outlet/class-wc-pos-outlet-product-list.php:72
+msgid "POS Outlet Product List"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-outlet-product-list.php:168
+msgid "Master Product Stock"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-outlet-product-list.php:171
+msgid "Available Product Stock"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-outlet-product-list.php:172
+msgid "POS Status"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-outlet-product-list.php:175
+msgid "Assigned POS Stock"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-outlet-product-list.php:379
+msgid "Available Stock"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-outlet-product-list.php:429
+msgid ""
+"<blockquote><p><strong>Important: </strong>Please note all the stock "
+"management for variations will be saved on focus and blur.</p></blockquote>"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-outlet-product-list.php:430
+msgid "Ok"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-outlet-product-list.php:439
+#: templates/admin/outlet/class-wc-pos-outlet-product-list.php:443
+msgid "Set variation stock"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-outlet-product-list.php:508
+#: templates/admin/settings/class-wc-pos-general-settings.php:345
+#: templates/admin/settings/class-wc-pos-general-settings.php:442
+#: templates/admin/settings/class-wc-pos-general-settings.php:459
+#: templates/admin/settings/class-wc-pos-general-settings.php:547
+#: templates/admin/settings/class-wc-pos-manage-payment.php:26
+#: templates/admin/settings/class-wc-pos-payment-list.php:216
+msgid "Enable"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-outlet-product-list.php:509
+#: templates/admin/settings/class-wc-pos-general-settings.php:346
+#: templates/admin/settings/class-wc-pos-general-settings.php:443
+#: templates/admin/settings/class-wc-pos-general-settings.php:460
+#: templates/admin/settings/class-wc-pos-general-settings.php:548
+#: templates/admin/settings/class-wc-pos-manage-payment.php:26
+#: templates/admin/settings/class-wc-pos-payment-list.php:217
+msgid "Disable"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-outlet-product-list.php:570
+msgid "Sync Variable Product"
+msgstr ""
+
+#: templates/admin/outlet/class-wc-pos-outlet-tab-manager.php:43
+msgid "Manage Products"
+msgstr ""
+
+#: templates/admin/reports/class-wc-pos-report-customer-list.php:148
+#. translators: %s Previous order linked
+msgid "%s previous order linked"
+msgid_plural "%s previous orders linked"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/admin/reports/class-wc-pos-report-customer-list.php:159
+#. translators: %s User display name
+msgid "Refreshed stats for %s"
+msgstr ""
+
+#: templates/admin/reports/class-wc-pos-report-customer-list.php:169
+msgid "All Outlet"
+msgstr ""
+
+#: templates/admin/reports/class-wc-pos-report-customer-list.php:186
+msgid "Search customers"
+msgstr ""
+
+#: templates/admin/reports/class-wc-pos-report-customer-list.php:269
+msgid "Refresh stats"
+msgstr ""
+
+#: templates/admin/reports/class-wc-pos-report-customer-list.php:290
+msgid "Link previous orders"
+msgstr ""
+
+#: templates/admin/reports/class-wc-pos-report-customer-list.php:412
+msgid "Name (Last, First)"
+msgstr ""
+
+#: templates/admin/reports/class-wc-pos-report-customer-list.php:413
+#: templates/front/class-wc-pos-login.php:147
+msgid "Username"
+msgstr ""
+
+#: templates/admin/reports/class-wc-pos-report-customer-list.php:415
+msgid "Location"
+msgstr ""
+
+#: templates/admin/reports/class-wc-pos-report-customer-list.php:417
+msgid "Money spent"
+msgstr ""
+
+#: templates/admin/reports/class-wc-pos-report-customer-list.php:418
+msgid "Last order"
+msgstr ""
+
+#: templates/admin/reports/class-wc-pos-report-customer-list.php:419
+#: templates/admin/reports/class-wc-report-stock.php:287
+#: templates/admin/reports/class-wc-report-stock.php:299
+msgid "Actions"
+msgstr ""
+
+#: templates/admin/reports/class-wc-pos-report-low-in-stock.php:24
+msgid "No low in stock products found."
+msgstr ""
+
+#: templates/admin/reports/class-wc-pos-report-out-of-stock.php:28
+msgid "No out of stock products found."
+msgstr ""
+
+#: templates/admin/reports/class-wc-pos-report-tab-manager-template.php:56
+msgid "Stock"
+msgstr ""
+
+#: templates/admin/reports/class-wc-pos-report-tab-manager-template.php:68
+msgid "POS Reports"
+msgstr ""
+
+#: templates/admin/reports/class-wc-report-stock.php:60
+msgid "No products found."
+msgstr ""
+
+#: templates/admin/reports/class-wc-report-stock.php:187
+#: templates/admin/reports/class-wc-report-stock.php:193
+#: templates/admin/reports/class-wc-report-stock.php:201
+#: templates/admin/reports/class-wc-report-stock.php:208
+msgid "In stock"
+msgstr ""
+
+#: templates/admin/reports/class-wc-report-stock.php:244
+msgid "View"
+msgstr ""
+
+#: templates/admin/reports/class-wc-report-stock.php:256
+msgid "%s product"
+msgstr ""
+
+#: templates/admin/reports/class-wc-report-stock.php:277
+#: templates/admin/reports/class-wc-report-stock.php:290
+msgid "Parent"
+msgstr ""
+
+#: templates/admin/reports/class-wc-report-stock.php:281
+msgid "Assign POS Stock"
+msgstr ""
+
+#: templates/admin/reports/class-wc-report-stock.php:283
+#: templates/admin/reports/class-wc-report-stock.php:295
+msgid "Total Stock"
+msgstr ""
+
+#: templates/admin/reports/class-wc-report-stock.php:286
+#: templates/admin/reports/class-wc-report-stock.php:298
+msgid "Stock status"
+msgstr ""
+
+#: templates/admin/settings/barcode-settings.php:38
+msgid "Barcode Width"
+msgstr ""
+
+#: templates/admin/settings/barcode-settings.php:40
+msgid "Enter the width of the barcode in pixels."
+msgstr ""
+
+#: templates/admin/settings/barcode-settings.php:48
+msgid "Save Barcode"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-appearance.php:42
+msgid "POS Themes"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-appearance.php:51
+msgid "OS Deafult Mode"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-customer-settings.php:67
+msgid "Customer Details"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-customer-settings.php:76
+#: templates/admin/user/class-wc-pos-add-user.php:189
+msgid "First Name"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-customer-settings.php:87
+#: templates/admin/user/class-wc-pos-add-user.php:203
+msgid "Last Name"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-customer-settings.php:111
+msgid ""
+"This will be the default password for the customers that will be added from "
+"the POS panel."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-customer-settings.php:131
+msgid "Customer Address"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-customer-settings.php:140
+msgid "Company"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-customer-settings.php:151
+msgid "Address1"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-customer-settings.php:163
+msgid "Address2"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-customer-settings.php:187
+msgid "Postcode"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-customer-settings.php:215
+msgid "Update Customer"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-endpoint-settings.php:49
+msgid "POS Endpoint"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-endpoint-settings.php:58
+msgid "Endpoint"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-endpoint-settings.php:60
+msgid "Set POS Endpoint as per your requirement."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-endpoint-settings.php:70
+msgid "Permalink"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-endpoint-settings.php:74
+#: assets/dist/app/index.js:165
+msgid "Note"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:77
+msgid "General Configurations"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:89
+msgid ""
+"This will be the username for the connection to the API. This can be "
+"anything just used to connect our POS API."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:105
+msgid ""
+"This will be the password for the connection to the API. This can be "
+"anything just used to connect our POS API."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:119
+msgid "POS Heading Login"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:121
+msgid "This will be the primary heading on the login page."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:134
+msgid "Brand name for footer section"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:136
+msgid "This will be the brand name on login page in footer section."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:149
+msgid "Brand Link for footer section"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:151
+msgid "This will be the brand name link on login page in footer section."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:161
+#: templates/admin/settings/class-wc-pos-general-settings.php:170
+#: templates/admin/settings/class-wc-pos-general-settings.php:174
+msgid "Invoice Logo"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:215
+msgid "POS Panel Configurations"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:230
+msgid "This is a inventory type which you want for your system."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:241
+msgid "Default Product Status for Outlet"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:243
+#: templates/admin/settings/class-wc-pos-general-settings.php:260
+#: templates/admin/settings/class-wc-pos-general-settings.php:277
+#: templates/admin/settings/class-wc-pos-general-settings.php:294
+#: templates/admin/settings/class-wc-pos-general-settings.php:311
+#: templates/admin/settings/class-wc-pos-general-settings.php:328
+#: templates/admin/settings/class-wc-pos-general-settings.php:363
+msgid "Enabled"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:244
+#: templates/admin/settings/class-wc-pos-general-settings.php:261
+#: templates/admin/settings/class-wc-pos-general-settings.php:278
+#: templates/admin/settings/class-wc-pos-general-settings.php:295
+#: templates/admin/settings/class-wc-pos-general-settings.php:312
+#: templates/admin/settings/class-wc-pos-general-settings.php:329
+#: templates/admin/settings/class-wc-pos-general-settings.php:362
+msgid "Disabled"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:247
+msgid ""
+"By enabling this feature, all new created products will be enabled by "
+"default in all outlets"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:258
+msgid "Enable zero price products"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:264
+msgid "By enabling this feature, all the zero price products will show on the pos."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:275
+msgid "Enable Unit Price Feature"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:281
+msgid ""
+"By enabling this feature, product if having weight, will be sold according "
+"to its weight in outlets."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:292
+msgid "Opening Amount Drawer Status"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:298
+msgid ""
+"By enabling this feature opening amount drawer popup will show to input the "
+"opening amout otherwise it set the opening amount is zero (0)."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:309
+msgid "POS Invoice Option"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:315
+msgid ""
+"If this feature enabled then posuser get the option to print the invoice on "
+"the POS otherwise posuser will not able to print the invoice."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:326
+msgid "Enable Mails at POS end"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:332
+msgid ""
+"If you disable this option then customers and admin will not receive any "
+"mails after placing an order at POS end."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:343
+msgid "Enable Keyboard Shortcuts"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:349
+msgid "Enable keyboard shortcuts for managing Entire pos via keyaboard"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:360
+msgid "Enable POS Logo to POS screen header"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:366
+msgid "If you disable this option then POS screen will show only web username."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:376
+msgid "Circle"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:377
+msgid "Square"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:378
+msgid "Rounded"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:385
+msgid "POS Product Image View"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:388
+msgid "Select The POS Product Image View As per your requirement"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:400
+msgid "Order & Stock Configurations"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:409
+msgid "Quantity For Low Stock Warning"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:413
+msgid ""
+"This will be the maximum quantity for products to show the low stock "
+"warnings."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:426
+msgid "Amount you want to increase after roundoff"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:428
+msgid "Amount you want to increase after roundoff in POS payment custom Option."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:440
+msgid "Auto Sync Offline Orders"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:446
+msgid "Offline orders will sync automatically when you will create any order online"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:457
+msgid "Load WooCommerce Orders"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:463
+msgid ""
+"By enabling this feature, the woocommerce order will sync on the pos "
+"outlets."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:474
+msgid "Order Id Prefix"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:476
+msgid ""
+"Enter your order id prefix, e.g. #POS_470 Here 470 is order id and POS_ is "
+"prefix"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:491
+msgid "Barcode Settings"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:504
+msgid "This will be the barcode background color."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:526
+msgid "Width"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:528
+#: templates/admin/settings/class-wc-pos-general-settings.php:566
+msgid "This will incrase the barcode width."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:545
+msgid "Display Title"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:551
+msgid "Product title will show or hide by this setting."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:564
+msgid "Height"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:585
+msgid "Text Position"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:587
+msgid "Top"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:588
+msgid "Bottom"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:591
+msgid "Barcode text will display in top or bottom."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:607
+msgid "Text Size"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:609
+msgid "Barcode text size will change the title text & custom text size"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:626
+msgid "Print Preview"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:628
+msgid "Portrait"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:629
+msgid "Landscape"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:632
+msgid "Barcode Print preview will appear in this page format"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:638
+msgid "Barcode demo text"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:648
+msgid "Web APP Settings"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:661
+msgid "This will be the name for POS Progressive Web App."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:678
+msgid "This will be the short name for POS Progressive Web App."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:695
+msgid "This will be the theme color for POS Progressive Web App."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:712
+msgid "This will be the background color for POS Progressive Web App."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:726
+msgid "Media Settings"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:732
+msgid "App Icon (48x48)"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:741
+#: templates/admin/settings/class-wc-pos-general-settings.php:756
+#: templates/admin/settings/class-wc-pos-general-settings.php:771
+#: templates/admin/settings/class-wc-pos-general-settings.php:785
+msgid "Upload Icon"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:747
+msgid "App Icon (96x96)"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:762
+msgid "App Icon (144x144)"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:777
+msgid "App Icon (196x196)"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-general-settings.php:795
+msgid "Save Configurations"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-manage-payment.php:66
+msgid "Add payment method"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-manage-payment.php:79
+#: templates/admin/settings/class-wc-pos-payment-list.php:116
+msgid "Payment Name"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-manage-payment.php:81
+msgid "POS Payment Gateway Name."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-manage-payment.php:95
+msgid "Payment Slug"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-manage-payment.php:97
+msgid "POS payment Gateway Slug."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-manage-payment.php:112
+msgid "Payment Description"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-manage-payment.php:114
+msgid "Description about POS payment Gateway."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-manage-payment.php:132
+msgid "Select Status for the pos payment."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-manage-payment.php:152
+msgid "Update Payment"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-manage-payment.php:158
+msgid "Save Payment"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-mass-assign-outlet-products.php:51
+msgid "Outlet Assign All Products"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-mass-assign-outlet-products.php:53
+msgid "Assign all product to pos"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-mass-assign-outlet-products.php:65
+msgid "Outlet Assign Quantity"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-mass-assign-outlet-products.php:67
+msgid "POS Outlet Assign default quantity."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-mass-assign-outlet-products.php:74
+#: templates/admin/settings/class-wc-pos-mass-assign-product-master-stock-settings.php:81
+msgid "Bulk Assign"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-mass-assign-product-master-stock-settings.php:37
+msgid "Assign Bulk Mass"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-mass-assign-product-master-stock-settings.php:48
+msgid "Enter Quantity "
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-mass-assign-product-master-stock-settings.php:50
+msgid "Enter the quantity that you want to assign to each outlet"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-mass-assign-product-master-stock-settings.php:59
+msgid ""
+"<blockquote><p><strong>Important: </strong>For example, If you have 100 "
+"stock of product P1 in WooCommerce store, You have 2 outlet O1 and O2 and "
+"you enter 20 product to assign stock in each outlet, after assigning master "
+"stock value will be 140 of product P1, POS stock value of product P1 will "
+"be 20, POS stock of product P1 will be 20 and WooCommerce stock is 140 of "
+"product P1. </p></blockquote>"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-payment-list.php:28
+msgid "POS Payment List"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-payment-list.php:29
+msgid "POS Payment(s) List"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-payment-list.php:118
+msgid "Description"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-payment-list.php:235
+#: templates/admin/settings/class-wc-pos-payment-list.php:247
+msgid "Payment Method(s) updated successfully"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-payment-list.php:259
+msgid "Payment Method(s) deleted successfully"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-payment-list.php:270
+msgid "Payment Method deleted successfully"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-payment-list.php:274
+msgid "Not a Valid Payment Method."
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-payment-list.php:290
+msgid "Payment Method(s)"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-payment-list.php:298
+msgid "Search Payment"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-printer-settings.php:45
+msgid "Printers List"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-printer-settings.php:52
+msgid "A4 Printer"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-printer-settings.php:53
+msgid "A3 printer"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-printer-settings.php:54
+msgid "Epson TM-T88V Thermal Printer"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-printer-settings.php:55
+msgid "A5 Printer"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-printer-settings.php:56
+msgid "A6 Printer"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-printer-settings.php:63
+msgid "Select Default Printer Type"
+msgstr ""
+
+#: templates/admin/settings/class-wc-pos-printer-settings.php:66
+msgid "This is a Printer type which you want for your system."
+msgstr ""
+
+#: templates/admin/user/class-wc-pos-add-user.php:145
+msgid "Add POS USER"
+msgstr ""
+
+#: templates/admin/user/class-wc-pos-add-user.php:147
+msgid "Edit POS USER"
+msgstr ""
+
+#: templates/admin/user/class-wc-pos-add-user.php:163
+msgid "Enter User Name."
+msgstr ""
+
+#: templates/admin/user/class-wc-pos-add-user.php:178
+msgid "Select Outlet for the pos user."
+msgstr ""
+
+#: templates/admin/user/class-wc-pos-add-user.php:191
+msgid "POS User First Name."
+msgstr ""
+
+#: templates/admin/user/class-wc-pos-add-user.php:205
+msgid "POS User Last Name."
+msgstr ""
+
+#: templates/admin/user/class-wc-pos-add-user.php:219
+msgid "POS User Telephone Number."
+msgstr ""
+
+#: templates/admin/user/class-wc-pos-add-user.php:233
+msgid "POS User Email Address."
+msgstr ""
+
+#: templates/admin/user/class-wc-pos-add-user.php:249
+msgid "POS User Password Auto Generated."
+msgstr ""
+
+#: templates/admin/user/class-wc-pos-add-user.php:270
+msgid "Select Status for the pos user."
+msgstr ""
+
+#: templates/admin/user/class-wc-pos-add-user.php:278
+#: templates/admin/user/class-wc-pos-add-user.php:287
+#: templates/admin/user/class-wc-pos-add-user.php:291
+msgid "User Profile Image"
+msgstr ""
+
+#: templates/admin/user/class-wc-pos-add-user.php:333
+msgid "Update User"
+msgstr ""
+
+#: templates/admin/user/class-wc-pos-add-user.php:337
+msgid "Save User"
+msgstr ""
+
+#: templates/admin/user/class-wc-pos-user-list.php:35
+#: templates/admin/user/class-wc-pos-user-list.php:36
+msgid "POS User List"
+msgstr ""
+
+#: templates/admin/user/class-wc-pos-user-list.php:118
+msgid "UserName"
+msgstr ""
+
+#: templates/admin/user/class-wc-pos-user-list.php:124
+msgid "Date Created"
+msgstr ""
+
+#: templates/admin/user/class-wc-pos-user-list.php:375
+msgid "User deleted successfully"
+msgstr ""
+
+#: templates/admin/user/class-wc-pos-user-list.php:380
+#: templates/admin/user/class-wc-pos-user-list.php:387
+msgid "Not a Valid POS User . "
+msgstr ""
+
+#: templates/admin/user/class-wc-pos-user-list.php:398
+msgid " user(s) activated successfully."
+msgstr ""
+
+#: templates/admin/user/class-wc-pos-user-list.php:402
+msgid " user(s) deactivated successfully."
+msgstr ""
+
+#: templates/admin/user/class-wc-pos-user-list.php:418
+msgid "POS User list"
+msgstr ""
+
+#: templates/admin/user/class-wc-pos-user-list.php:418
+msgid "Add new"
+msgstr ""
+
+#: templates/admin/user/class-wc-pos-user-list.php:426
+msgid "Search Users"
+msgstr ""
+
+#: templates/front/class-wc-pos-login.php:61
+msgid "Point Of Sale System"
+msgstr ""
+
+#: templates/front/class-wc-pos-login.php:63
+msgid "Webkul"
+msgstr ""
+
+#: templates/front/class-wc-pos-login.php:117
+msgid "FAILED: Try again!"
+msgstr ""
+
+#: templates/front/class-wc-pos-login.php:121
+msgid "Please enter all fields for login."
+msgstr ""
+
+#: templates/front/class-wc-pos-login.php:135
+msgid "LOGIN TO YOUR ACCOUNT"
+msgstr ""
+
+#: templates/front/class-wc-pos-login.php:149
+msgid "Remember Me"
+msgstr ""
+
+#: templates/front/class-wc-pos-login.php:150
+msgid "Log In"
+msgstr ""
+
+#: templates/front/class-wc-pos-login.php:168
+msgid "POS System"
+msgstr ""
+
+#: templates/front/class-wc-pos-login.php:169
+msgid "A Product of"
+msgstr ""
+
+#: templates/front/class-wc-pos-login.php:178
+#. translators: %1$f pos version,  %2$s webkul url
+msgid "version - %1$0.1f - %2$s"
+msgstr ""
+
+#: templates/front/class-wc-pos-login.php:191
+msgid "Your browser does not support JavaScript!"
+msgstr ""
+
+#: functions.php:70
+msgctxt "Alert Message: WooCommerce requires"
+msgid ""
+"WooCommerce Point of Sale is enabled but not effective. It requires <a "
+"href=\"https://wordpress.org/plugins/woocommerce/\" "
+"target=\"_blank\">WooCommerce Plugin</a> in order to work."
+msgstr ""
+
+#: templates/admin/reports/class-wc-pos-report-customer-list.php:252
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: assets/dist/app/index.js:71
+msgid "Processing Invoice"
+msgstr ""
+
+#: assets/dist/app/index.js:283
+msgid "Reset Default"
+msgstr ""
+
+#: assets/dist/app/index.js:288
+msgid "Element"
+msgstr ""
+
+#: assets/dist/app/index.js:291
+msgid "Heading 1"
+msgstr ""
+
+#: assets/dist/app/index.js:292
+msgid "Heading 2"
+msgstr ""
+
+#: assets/dist/app/index.js:293
+msgid "Heading 3"
+msgstr ""
+
+#: assets/dist/app/index.js:294
+msgid "Heading 4"
+msgstr ""
+
+#: assets/dist/app/index.js:295
+msgid "Heading 5"
+msgstr ""
+
+#: assets/dist/app/index.js:296
+msgid "Heading 6"
+msgstr ""
+
+#: assets/dist/app/index.js:298
+msgid "Paragraph"
+msgstr ""
+
+#: assets/dist/app/index.js:299
+msgid "Horizontal Ruler"
+msgstr ""
+
+#: assets/dist/app/index.js:304
+msgid "Select element first in the invoice to add new element next to it."
+msgstr ""
+
+#: assets/dist/app/index.js:101
+msgid "Font Size (px)"
+msgstr ""
+
+#: assets/dist/app/index.js:106
+msgid "Font Weight"
+msgstr ""
+
+#: assets/dist/app/index.js:113
+msgid "Color"
+msgstr ""
+
+#: assets/dist/app/index.js:118
+msgid "Line Height (px)"
+msgstr ""
+
+#: assets/dist/app/index.js:125
+msgid "Width (px)"
+msgstr ""
+
+#: assets/dist/app/index.js:130
+msgid "Height (px)"
+msgstr ""
+
+#: assets/dist/app/index.js:137
+msgid "Padding Left (px)"
+msgstr ""
+
+#: assets/dist/app/index.js:142
+msgid "Padding Right (px)"
+msgstr ""
+
+#: assets/dist/app/index.js:149
+msgid "Padding Top (px)"
+msgstr ""
+
+#: assets/dist/app/index.js:154
+msgid "Padding Bottom (px)"
+msgstr ""
+
+#: assets/dist/app/index.js:161
+msgid "Margin Left (px)"
+msgstr ""
+
+#: assets/dist/app/index.js:166
+msgid "Margin Right (px)"
+msgstr ""
+
+#: assets/dist/app/index.js:173
+msgid "Margin Top (px)"
+msgstr ""
+
+#: assets/dist/app/index.js:178
+msgid "Margin Bottom (px)"
+msgstr ""
+
+#: assets/dist/app/index.js:185
+msgid "Text Align"
+msgstr ""
+
+#: assets/dist/app/index.js:187
+msgid "Left"
+msgstr ""
+
+#: assets/dist/app/index.js:188
+msgid "Right"
+msgstr ""
+
+#: assets/dist/app/index.js:189
+msgid "Center"
+msgstr ""
+
+#: assets/dist/app/index.js:194
+msgid "Border Style (px)"
+msgstr ""
+
+#: assets/dist/app/index.js:196
+msgid "None"
+msgstr ""
+
+#: assets/dist/app/index.js:197
+msgid "Solid"
+msgstr ""
+
+#: assets/dist/app/index.js:198
+msgid "Dashed"
+msgstr ""
+
+#: assets/dist/app/index.js:199
+msgid "Dotted"
+msgstr ""
+
+#: assets/dist/app/index.js:200
+msgid "Double"
+msgstr ""
+
+#: assets/dist/app/index.js:201
+msgid "Groove"
+msgstr ""
+
+#: assets/dist/app/index.js:202
+msgid "Ridge"
+msgstr ""
+
+#: assets/dist/app/index.js:209
+msgid "Border Left Color"
+msgstr ""
+
+#: assets/dist/app/index.js:214
+msgid "Border Right Color"
+msgstr ""
+
+#: assets/dist/app/index.js:221
+msgid "Border Top Color"
+msgstr ""
+
+#: assets/dist/app/index.js:226
+msgid "Border Bottom Color"
+msgstr ""
+
+#: assets/dist/app/index.js:233
+msgid "Border Left Width (px)"
+msgstr ""
+
+#: assets/dist/app/index.js:238
+msgid "Border Right Width (px)"
+msgstr ""
+
+#: assets/dist/app/index.js:245
+msgid "Border Top Width (px)"
+msgstr ""
+
+#: assets/dist/app/index.js:250
+msgid "Border Bottom Width (px)"
+msgstr ""
+
+#: assets/dist/app/index.js:257
+msgid "Remove"
+msgstr ""
+
+#: assets/dist/app/index.js:260
+msgid "Pre-defined Variables"
+msgstr ""
+
+#: assets/dist/app/index.js:268
+msgid "Customer First Name"
+msgstr ""
+
+#: assets/dist/app/index.js:269
+msgid "Customer Last Name"
+msgstr ""
+
+#: assets/dist/app/index.js:270
+msgid "Customer Phone Number"
+msgstr ""
+
+#: assets/dist/app/index.js:271
+msgid "Cashier/POS user name"
+msgstr ""
+
+#: assets/dist/app/index.js:272
+msgid "POS User's phone number"
+msgstr ""
+
+#: assets/dist/app/index.js:273
+msgid "POS User's email"
+msgstr ""
+
+#: assets/dist/app/index.js:276
+msgid "Order Tax Title"
+msgstr ""
+
+#: assets/dist/app/index.js:277
+msgid "Order Tax Amount"
+msgstr ""
+
+#: assets/dist/app/index.js:278
+msgid "Order Coupon Name"
+msgstr ""
+
+#: assets/dist/app/index.js:279
+msgid "Order Coupon Amount"
+msgstr ""
+
+#: assets/dist/app/index.js:280
+msgid "Order Discount"
+msgstr ""
+
+#: assets/dist/app/index.js:281
+msgid "Order Subtotal"
+msgstr ""
+
+#: assets/dist/app/index.js:283
+msgid "Order Cashpay Amount"
+msgstr ""
+
+#: assets/dist/app/index.js:284
+msgid "Order Other Pay Amount"
+msgstr ""
+
+#: assets/dist/app/index.js:285
+msgid "Order Other Payment title"
+msgstr ""
+
+#: assets/dist/app/index.js:286
+msgid "Order Change"
+msgstr ""
+
+#: assets/dist/app/index.js:287
+msgid "Order Product Name"
+msgstr ""
+
+#: assets/dist/app/index.js:288
+msgid "Order Product Quantity"
+msgstr ""
+
+#: assets/dist/app/index.js:289
+msgid "Order Product Unit Price"
+msgstr ""
+
+#: assets/dist/app/index.js:290
+msgid "Order Product Total Price"
+msgstr ""
+
+#: assets/dist/app/index.js:291
+msgid "Order Cashier Note"
+msgstr ""
+
+#: assets/dist/app/index.js:87
+msgid "Element Properties"
+msgstr ""
+
+#: assets/dist/app/index.js:89
+msgid "Link"
+msgstr ""
+
+#: assets/dist/app/index.js:93
+msgid "Label"
+msgstr ""
+
+#: assets/dist/app/index.js:48
+msgid "Checking Stock!"
+msgstr ""
+
+#: assets/dist/app/index.js:507
+#: assets/dist/app/index.js:344
+#: assets/dist/app/index.js:180
+msgid "Modify Weight"
+msgstr ""
+
+#: assets/dist/app/index.js:508
+#: assets/dist/app/index.js:345
+#: assets/dist/app/index.js:181
+msgid "Product Weight:"
+msgstr ""
+
+#: assets/dist/app/index.js:508
+#: assets/dist/app/index.js:345
+#: assets/dist/app/index.js:181
+msgid "Enter weight in"
+msgstr ""
+
+#: assets/dist/app/index.js:508
+#: assets/dist/app/index.js:345
+#: assets/dist/app/index.js:181
+msgid "(Max 2 decimal places)"
+msgstr ""
+
+#: assets/dist/app/index.js:568
+#: assets/dist/app/index.js:359
+#: assets/dist/app/index.js:195
+msgid "Please enter a valid weight."
+msgstr ""
+
+#: assets/dist/app/index.js:122
+msgid "Later"
+msgstr ""
+
+#: assets/dist/app/index.js:584
+msgid "Skip"
+msgstr ""
+
+#: assets/dist/app/index.js:283
+#: assets/dist/app/index.js:123
+msgid "Choose Option"
+msgstr ""
+
+#: assets/dist/app/index.js:291
+#: assets/dist/app/index.js:778
+msgid "No customer selected"
+msgstr ""
+
+#: assets/dist/app/index.js:185
+msgid "Price "
+msgstr ""
+
+#: assets/dist/app/index.js:185
+msgid "(Per Product)"
+msgstr ""
+
+#: assets/dist/app/index.js:676
+msgid "Select Customer"
+msgstr ""
+
+#: assets/dist/app/index.js:119
+msgid "We didn't find any orders for today"
+msgstr ""
+
+#: assets/dist/app/index.js:189
+msgid "Today's sale"
+msgstr ""
+
+#: assets/dist/app/index.js:96
+msgid "We didn't find any orders"
+msgstr ""
+
+#: assets/dist/app/index.js:146
+msgid "Add New Customer"
+msgstr ""
+
+#: assets/dist/app/index.js:159
+msgid "Edit Customer"
+msgstr ""
+
+#: assets/dist/app/index.js:169
+msgid "We didn't find any results, Try checking the spelling and search again."
+msgstr ""
+
+#: assets/dist/app/index.js:90
+msgid "We didn't find any results."
+msgstr ""
+
+#: assets/dist/app/index.js:52
+msgid "Offline ID "
+msgstr ""
+
+#: assets/dist/app/index.js:74
+msgid "Extra Data"
+msgstr ""
+
+#: assets/dist/app/index.js:196
+msgid "No orders on hold"
+msgstr ""
+
+#: assets/dist/app/index.js:218
+msgid "We didn't find any results"
+msgstr ""
+
+#: assets/dist/app/index.js:906
+msgid "Back"
+msgstr ""
+
+#: assets/dist/app/index.js:301
+msgid "profile image"
+msgstr ""
+
+#: assets/dist/app/index.js:305
+msgid "Upload profile image"
+msgstr ""
+
+#: assets/dist/app/index.js:229
+msgid "Search product"
+msgstr ""
+
+#: assets/dist/app/index.js:15
+msgid "YOU ARE LOST IN THE"
+msgstr ""
+
+#: assets/dist/app/index.js:15
+msgid "SPACE"
+msgstr ""
+
+#: assets/dist/app/index.js:16
+msgid ""
+"The page you are looking for doesn’t exist or have secretly escaped; head "
+"back to home and make a fresh move again."
+msgstr ""
+
+#: assets/dist/app/index.js:17
+msgid "RETURN TO POS"
+msgstr ""
+

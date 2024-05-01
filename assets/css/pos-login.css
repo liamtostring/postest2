@@ -1,0 +1,277 @@
+body{
+    margin : 0px;
+    overflow: hidden;
+}
+.wkwcpos-login-error {
+    color: brown;
+    text-align: center;
+    display: none;
+}
+.pos-version{
+position: absolute;
+right: 0;
+bottom: 0;
+z-index: 99;
+color: #555;
+}
+.wkwcpos-lost-password {
+    display: inline-block;
+    font-size: 18px;
+    color: #555;
+    text-decoration: none;
+}
+.pos-form-wrap{
+    background-image: #f0f0f0;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+p.login-remember {
+    display: inline-block;
+    float: right;
+}
+p.login-remember label {
+    margin: 0;
+}
+.pos_loginForm{
+	height: 100vh;
+	width: 100%;
+	display: block;
+    background-color: #f0f0f0;
+    overflow: auto;
+}
+#posloginform p { margin:auto}
+#pos-submit {
+    cursor: pointer;
+}
+.input_err{
+    border: 1px solid black !important;
+}
+.pos-login-wrap{
+    display: table-cell;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
+.pos-login-wrap .home-div{
+    display: block;
+    margin: 20px auto;
+    max-width: 600px;
+}
+.pos-login-wrap .home-div h2{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    margin: 10px 0px 40px;
+}
+.pos-footer{
+    text-align: center;
+    color: black;
+}
+.pos-footer h3{
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: black;
+}
+.pos-footer p{
+    margin-top: 0px !important;
+}
+.pos-footer a{
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.pos-footer h3,.pos-footer a{
+    color:black;
+}
+/* .pos-login-wrap  p{
+	font-size: 17px;
+    margin-top: 20px;
+    color: #fff;
+    margin-bottom: 0px;
+} */
+.pos-login-wrap .login-div{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 30px 50px;
+    box-shadow: 0px 2px 16px rgb(34 22 22 / 8%);
+}
+.pos-login-wrap .login-div  h2 {
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    color: #555;
+    font-size: 24px;
+}
+.pos-login-wrap .login-div input[type="text"]:focus,.pos-login-wrap .login-div input[type="password"]:focus{
+    outline: none;
+}
+
+.pos-login-wrap .login-div input[type="text"],.pos-login-wrap .login-div input[type="password"]{
+    width: 100%;
+    margin-left: 0;
+    border: 1px solid #bbb;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 10px;
+    border-radius: 3px;
+    box-shadow: none;
+}
+.pos-login-wrap .login-div input[type="text"]:-webkit-autofill,.pos-login-wrap .login-div input[type="password"]:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+}
+.pos-login-wrap label{
+    display: block;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 20px;
+    color: #555;
+    margin-bottom: 5px;
+}
+.pos-login-wrap input[type="submit"]{
+    display: inline-block;
+    width: auto;
+    padding: 12px 60px;
+    background-color: #FC8019;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 15px;
+    font-weight: 400;
+    border-radius: 3px;
+}
+.pos-login-wrap .login-submit{
+    text-align: center;
+}
+.pos_error{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    background: #fff;
+    text-align: center;
+    color: #000000b9;
+    font-weight: 700;
+    font-size: 18px;
+}
+.pos_error strong{
+    padding: 0;
+}
+.jconfirm .container{
+    width: fit-content;
+    margin: 0 auto;
+}
+.jconfirm input[type="text"]{
+    width: 100%;
+}
+.jconfirm .jconfirm-box-container{
+    font-size: 18px;
+}
+.jconfirm-title{
+    font-weight: 500;
+}
+.jconfirm-content .form-group{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.jconfirm-content .form-group label{
+    width: 45%;
+    display: inline-block;
+}
+.jconfirm-content .form-group select{
+    width: 40%;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    background: #fff;
+}
+#loader{
+    background-color: #fff;
+    text-align: center;
+    z-index: 1000;
+}
+
+
+/* Dark Mode CSS */
+
+
+@media (prefers-color-scheme: dark) {
+    .pos_loginForm{
+        height: 100vh;
+        width: 100%;
+        display: block;
+        background-color: #383737;
+        overflow: auto;
+
+    }
+    .pos_loginForm a{
+        color: #fff;
+    }
+    .pos-login-wrap .login-div{
+        background-color: #000000b9 !important;
+        border-radius: 5px;
+        padding: 30px 50px;
+        box-shadow: 0px 2px 16px rgb(34 22 22 / 8%);
+    }
+
+    .pos_error{
+        display: inline-block;
+        width: 100%;
+        padding: 10px 20px;
+        background: #000000b9 !important;
+        text-align: center;
+        color: #fff;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .pos-login-wrap .login-div  h2 {
+        font-weight: bold;
+        text-align: center;
+        margin: 10px 0;
+        color: #FFF !important;
+        font-size: 24px;
+    }
+    .pos-login-wrap .home-div h2{
+        text-align: center;
+        color: #FFF !important;
+        font-size: 40px;
+        margin: 10px 0px 40px;
+    }
+
+    .pos-login-wrap label{
+        display: block;
+        font-size: 18px;
+        text-align: left;
+        margin-top: 20px;
+        color: #fff !important;
+        margin-bottom: 5px;
+    }
+
+    .pos-footer{
+        text-align: center;
+        color: #fff !important;
+    }
+    .pos-footer h3{
+        font-weight: 600;
+        margin-bottom: 0px;
+        color: #fff !important;
+    }
+
+    .pos-footer h3,.pos-footer a{
+        color:#fff !important;
+    }
+
+    .pos-version{
+        bottom: 0px;
+        color: #fff !important;
+        float: right;
+        clear: right;
+        margin-right: 10px;
+    }
+    .pos-version a{
+        color: #fff !important;
+    }
+}
+
+
+
+

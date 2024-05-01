@@ -1,0 +1,227 @@
+
+#invoice-print{
+    width: 100%;
+    margin: 0 auto;
+}
+th:nth-child(4), td:nth-child(4) {
+    text-align: right;
+}
+p.order-id {
+    display: inline;
+}
+.invoice-signature{
+    text-align:right;
+    margin-top:35px;
+}
+table.order-product-wrap {
+    width: 100%;
+}
+p.order-product-meta {
+    font-size: 8px;
+    width: 90%;
+}
+p.order-product-meta-heading {
+    font-weight: bold;
+    font-size: 8px;
+    text-align: left;
+}
+.sub-total{
+    text-align: right;
+}
+h5{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+p {
+    margin: 0;
+    font-size: 12;
+}
+/* // invoice settings */
+.invoice-body .pos-sale-summary ul li span, .invoice-body .pos-sale-summary ul li h4{
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+}
+
+.invoice-body .pos-sale-summary ul li div.order-product-wrap span{
+    width: 35%;
+    display: inline-block;
+}
+.invoice-body .pos-sale-summary ul li div.order-product-wrap{
+    width: 65%;
+    display: inline-block;
+}
+#invoice-print .pos-order-short {
+    display: inline-block;
+    /* margin: 10px 0px; */
+}
+#invoice-print .pos-order-short h4{
+    font-size: 18px;
+}
+
+#invoice-print .pos-order-sect h5{
+    font-size: 18px;
+    margin: 0px 0px 5px;
+}
+
+#invoice-print .pos-order-sect {
+    display: inline-block;
+}
+#invoice-print .pos-sumarry-customer h5{
+    margin: 0px 0px 10px;
+}
+.invoice-order-head{
+    text-align: center;
+}
+.invoice-order-head img{
+
+    width: 100%;
+    height: 20%;
+}
+.invoice-body .pos-sale-summary ul li h4{
+    margin-bottom: 5px;
+}
+.invoice-body .pos-sale-summary .sale-summary-calculate-subtotal ul li{
+    margin-bottom: 0px !important;
+}
+.invoice-footer{
+    text-align: center;
+}
+.invoice-footer p{
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-top: 2px;
+}
+.invoice-body ol{
+    margin-left: 15px;
+}
+.invoice-body .pos-sale-summary{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.invoice-body .pos-sale-summary ul, .invoice-body .pos-sale-summary ul.order-balance {
+    margin:0px;
+}
+.invoice-body .pos-sale-summary ul.order-balance h4{
+    margin-bottom: 0px;
+}
+
+.invoice-body .pos-sale-summary ul.order-balance {
+    border: none;
+    margin-top: 0px;
+}
+.invoice-body .pos-sale-summary .sale-summary-calculate-subtotal ul {
+    border: none;
+    margin: 0px;
+    padding-top: 10px;
+}
+.invoice-body .pos-sale-summary .sale-summary-calculate-subtotal ul li {
+    margin-bottom: 5px;
+}
+.invoice-body .pos-sale-summary ul li h4,.pos-order .pos-sale-summary ul li span {
+    font-weight: 400;
+    font-size: 12px;
+    display: inline-block;
+}
+th{
+    font-size: 12px;
+}
+td {
+    font-size: 10px;
+}
+.product-name{
+    width:50%;
+}
+.store-name{
+    font-weight: bold;
+}
+.address{
+    text-align: center;
+    font-size: 10px;
+    line-height:10px; 
+}
+p.cashier-name{
+    font-size: 12px;
+    float: left;
+    margin-top: 2%;
+    line-height: 1;
+    margin-right: -9%;
+}
+p.date {
+    float: right;
+    margin: 0%;
+}
+tr.border_bottom td {
+  border-bottom:1pt solid #eeeeee;
+  border-spacing: 10px;
+  margin : 0px;
+  padding: 0px;
+}
+p.customer-name {
+    width: 70%;
+    display: inline-block;
+    font-weight: bold;
+}
+p.custom-data {
+    float: right;
+}
+.product-quantity {
+    width: 10%
+}
+.product-unit-price {
+    width: 20%
+}
+.product-total-price {
+    width: 20%
+}
+tr .border_bottom th {
+    border-bottom: 1pt solid black;
+}
+.invoice-body .pos-sale-summary ul li div.order-product-wrap span{
+    font-size: 15px;
+    color: #999;
+}
+.invoice-body .pos-sale-summary ul li>span{
+    float: right;
+}
+.invoice-body .pos-sale-summary h3{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-bottom: 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.invoice-body .pos-sale-summary ul {
+    margin-left: 0px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    padding-left: 0px;
+    list-style: none;
+    font-size: 11px;
+
+}
+span.woocommerce-Price-currencySymbol {
+  float: none ! important;
+}
+.coupon-amt{
+  display: inline-block;
+  float: right;
+}
+.coupon-amt span{
+  float: none;
+  width:55%;
+}
+@page { /* auto is the initial value */
+    margin: 8px;  /* this affects the margin in the printer settings */
+}
+.invoice-body .pos-order-sect .order-id {
+  font-weight: bold;
+}
+
+.invoice-head,
+.invoice-body,
+.invoice-footer {
+  /* width: 70mm; */
+  margin-left: 0mm;
+  margin-right: 0mm;
+}

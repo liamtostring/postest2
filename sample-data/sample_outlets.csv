@@ -1,0 +1,3 @@
+id,outlet_name,outlet_address,outlet_status,outlet_city,outlet_state,outlet_postcode,outlet_country
+1,"outlet 1","9349 Plymouth Court",enable,"Sacramento","CA","95820",IN
+2,"outlet 2","via Macedonio Melloni, 32",enable,"Milano","MI","20129",IT
